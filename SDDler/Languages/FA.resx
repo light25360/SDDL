@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutToolStripMenuItem" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="AboutToolStripMenuItem1" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="ADButton1" xml:space="preserve">
+    <value>باشه</value>
+  </data>
+  <data name="ADButton2" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="ADCheckBox1" xml:space="preserve">
+    <value>استفاده از حساب کاربری</value>
+  </data>
+  <data name="Addlink" xml:space="preserve">
+    <value>اضافه کردن لینک</value>
+  </data>
+  <data name="AddLinkToolStripMenuItem" xml:space="preserve">
+    <value>اضافه کردن لینک جدید</value>
+  </data>
+  <data name="ADLabel1" xml:space="preserve">
+    <value>آدرس :</value>
+  </data>
+  <data name="ADLabel2" xml:space="preserve">
+    <value>نام کاربری :</value>
+  </data>
+  <data name="ADLabel3" xml:space="preserve">
+    <value>رمز عبور :</value>
+  </data>
+  <data name="ADLabel5" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="ADlbldescription" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="ArrangeFilesToolStripMenuItem" xml:space="preserve">
+    <value>مرتب کردن فایل ها</value>
+  </data>
+  <data name="ByFileNameToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس نام</value>
+  </data>
+  <data name="ByIDToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس شماره</value>
+  </data>
+  <data name="ByLastTryDateToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس آخرین تاریخ دانلود</value>
+  </data>
+  <data name="ByLeftTimeToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس زمان باقیمانده</value>
+  </data>
+  <data name="BySizeToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس حجم</value>
+  </data>
+  <data name="ByStatusToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس وضعیت دانلود</value>
+  </data>
+  <data name="ByToolStripMenuItem" xml:space="preserve">
+    <value>بر اساس سرعت</value>
+  </data>
+  <data name="checkuseproxy" xml:space="preserve">
+    <value>استفاده از پروکسی سیستم</value>
+  </data>
+  <data name="CLdate" xml:space="preserve">
+    <value>زمان آخرین تلاش</value>
+  </data>
+  <data name="CLDescription" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="CLink" xml:space="preserve">
+    <value>لینک</value>
+  </data>
+  <data name="CLname" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="CLnomber" xml:space="preserve">
+    <value>شماره</value>
+  </data>
+  <data name="CLpassword" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="CLsize" xml:space="preserve">
+    <value>سایز</value>
+  </data>
+  <data name="CLspeed" xml:space="preserve">
+    <value>سرعت</value>
+  </data>
+  <data name="CLstatus" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="CLtime" xml:space="preserve">
+    <value>زمان باقیمانده</value>
+  </data>
+  <data name="CLusername" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="DELbtnno" xml:space="preserve">
+    <value>نه خیر</value>
+  </data>
+  <data name="DELbtnyes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="DELcheckdontshow" xml:space="preserve">
+    <value>این پنجره را دیگر نشان نده</value>
+  </data>
+  <data name="DeleteAllcompletedToolStripMenuItem" xml:space="preserve">
+    <value>حذف تکمیلها</value>
+  </data>
+  <data name="DELLabel1" xml:space="preserve">
+    <value>آیا از پاک کردن این فایل  مطمئن هستید ؟</value>
+  </data>
+  <data name="DELmsgdelete" xml:space="preserve">
+    <value>درخواست پاک کردن</value>
+  </data>
+  <data name="DLbtnpause" xml:space="preserve">
+    <value>ایست</value>
+  </data>
+  <data name="DLbtnresume" xml:space="preserve">
+    <value>ادامه</value>
+  </data>
+  <data name="DLbtnstop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="DLexitchek" xml:space="preserve">
+    <value>بعد از اتمام دانلودها , برنامه را ببند</value>
+  </data>
+  <data name="DLforceturnoffcheck" xml:space="preserve">
+    <value>برنامه های درحال اجرا را مجبور به بستن کن</value>
+  </data>
+  <data name="DLl1" xml:space="preserve">
+    <value>دانلود شده </value>
+  </data>
+  <data name="DLl2" xml:space="preserve">
+    <value>وضعیت </value>
+  </data>
+  <data name="DLl3" xml:space="preserve">
+    <value>سایز فایل</value>
+  </data>
+  <data name="DLl4" xml:space="preserve">
+    <value>سرعت </value>
+  </data>
+  <data name="DLl5" xml:space="preserve">
+    <value>زمان باقیمانده </value>
+  </data>
+  <data name="DLLabel10" xml:space="preserve">
+    <value>نوع فایل </value>
+  </data>
+  <data name="DLLabel14" xml:space="preserve">
+    <value>قابلیت ادامه</value>
+  </data>
+  <data name="DLLabel15" xml:space="preserve">
+    <value>زمان سپری شده</value>
+  </data>
+  <data name="DLLabel16" xml:space="preserve">
+    <value>کل بخش ها</value>
+  </data>
+  <data name="DLLabel17" xml:space="preserve">
+    <value>بخش جاری</value>
+  </data>
+  <data name="DLLabel7" xml:space="preserve">
+    <value>ذخیره در </value>
+  </data>
+  <data name="DLLabel9" xml:space="preserve">
+    <value>تنظمات زیر هنگامی که گزینه "نشان دادن پنجره اتمام دانلود "فعال می باشد , نمایش داده نمی شوند</value>
+  </data>
+  <data name="DLoptiontab" xml:space="preserve">
+    <value>گزینه های اتمام دانلود</value>
+  </data>
+  <data name="DLpcturnoffchek" xml:space="preserve">
+    <value>بعد از اتمام دانلودها , کامپیوتر را خاموش کن</value>
+  </data>
+  <data name="DLshowdialogchk" xml:space="preserve">
+    <value>نشان داده پنجره اتمام دانلود</value>
+  </data>
+  <data name="DLstatustab" xml:space="preserve">
+    <value>وضعیت دانلود</value>
+  </data>
+  <data name="EnglishToolStripMenuItem" xml:space="preserve">
+    <value>انگلیسی</value>
+  </data>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="FilesToolStripMenuItem" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="HelpToolStripMenuItem" xml:space="preserve">
+    <value>کمک</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>اضافه کردن لینک</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>ادامه</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>توقف همه</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>زمان بندی</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>حذف تکمیلها</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="LanguageToolStripMenuItem" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Llocation" xml:space="preserve">
+    <value>ذخیره در</value>
+  </data>
+  <data name="OPbtncancel" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="OPbtncheckfornewversion" xml:space="preserve">
+    <value>چک کردن برای ورژن جدید</value>
+  </data>
+  <data name="OPbtnedit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="OPbtnnew" xml:space="preserve">
+    <value>جدید</value>
+  </data>
+  <data name="OPbtnok" xml:space="preserve">
+    <value>باشه</value>
+  </data>
+  <data name="OPbtnremove" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="opButton1" xml:space="preserve">
+    <value>اضافه</value>
+  </data>
+  <data name="opButton2" xml:space="preserve">
+    <value>پیش فرض</value>
+  </data>
+  <data name="opButton3" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="OPcheckautoupdate" xml:space="preserve">
+    <value>چک کردن برای آپدیت ها به صورت اتوماتیک</value>
+  </data>
+  <data name="OPcheckcancelled" xml:space="preserve">
+    <value>دانلود ناموفق</value>
+  </data>
+  <data name="OPcheckcompleted" xml:space="preserve">
+    <value>دانلود پایان یافت</value>
+  </data>
+  <data name="OPcheckdontshoedelete" xml:space="preserve">
+    <value>پنجره درخواست پاک کردن را نمایش نده</value>
+  </data>
+  <data name="OPcheckgrabfromclipboard" xml:space="preserve">
+    <value>لینکهای موجود در حافظه(کلیپ برد ویندوز) را به صورت اتوماتیک دانلود کن</value>
+  </data>
+  <data name="OPcheckshownotification" xml:space="preserve">
+    <value>نشان دادن اطلاع رسانی ویندوز در هنگام اتمام دانلود</value>
+  </data>
+  <data name="OPcheckstartup" xml:space="preserve">
+    <value>SD Download Manager را در هنگام بالا آمدن ویندوز اجرا کن</value>
+  </data>
+  <data name="opcheckusefiletype" xml:space="preserve">
+    <value>دانلود فایل های با پسوندهای زیر را فقط به صورت خودکار شروع کن</value>
+  </data>
+  <data name="OPCpass" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="OPCsite" xml:space="preserve">
+    <value>سایت/مسیر</value>
+  </data>
+  <data name="OPCuser" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="OPEbtnopenwith" xml:space="preserve">
+    <value>بازکردن با</value>
+  </data>
+  <data name="OPEButton1" xml:space="preserve">
+    <value>بازکردن/اجرا</value>
+  </data>
+  <data name="OPEButton3" xml:space="preserve">
+    <value>بازکردن پوشه</value>
+  </data>
+  <data name="OPEButton4" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="OPELabel1" xml:space="preserve">
+    <value>دانلود پایان یافت</value>
+  </data>
+  <data name="OPELabel2" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="OPELabel3" xml:space="preserve">
+    <value>ذخیره شده در</value>
+  </data>
+  <data name="OPELabel5" xml:space="preserve">
+    <value>دانلود شده</value>
+  </data>
+  <data name="OpenFolderToolStripMenuItem" xml:space="preserve">
+    <value>بازکردن پوشه</value>
+  </data>
+  <data name="OpenSDMToolStripMenuItem" xml:space="preserve">
+    <value>بازکردن برنامه</value>
+  </data>
+  <data name="OpenToolStripMenuItem" xml:space="preserve">
+    <value>بازکردن</value>
+  </data>
+  <data name="OpenWithToolStripMenuItem" xml:space="preserve">
+    <value>بازکردن با...</value>
+  </data>
+  <data name="OPfrmoption" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="OPGroupBox1" xml:space="preserve">
+    <value>تنظیمات اصلی</value>
+  </data>
+  <data name="OPGroupBox2" xml:space="preserve">
+    <value>صدا و رویداد را انتخاب کنید</value>
+  </data>
+  <data name="OPLabel1" xml:space="preserve">
+    <value>تنظیمات اصلی</value>
+  </data>
+  <data name="OPLabel3" xml:space="preserve">
+    <value>تنظیمات صدا</value>
+  </data>
+  <data name="OPLabel5" xml:space="preserve">
+    <value>نام کاربری و رمز عبور برای سرورها/سایت ها</value>
+  </data>
+  <data name="opLabel8" xml:space="preserve">
+    <value>نوع فایل های دانلود شده</value>
+  </data>
+  <data name="OPlblcheck" xml:space="preserve">
+    <value>درحال چک کردن , لطفا صبور باشید ...</value>
+  </data>
+  <data name="OPTabPage1" xml:space="preserve">
+    <value>صدا</value>
+  </data>
+  <data name="OPTabPage2" xml:space="preserve">
+    <value>اصلی</value>
+  </data>
+  <data name="OPTabPage3" xml:space="preserve">
+    <value>سایت های پسورد دار</value>
+  </data>
+  <data name="opTabPage4" xml:space="preserve">
+    <value>نوع فایل ها</value>
+  </data>
+  <data name="OptionToolStripMenuItem" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="PersianToolStripMenuItem" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="PRbtnclose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="PRbtnopen" xml:space="preserve">
+    <value>باز کردن</value>
+  </data>
+  <data name="PRfrmpropertise" xml:space="preserve">
+    <value>مشخصات فایل</value>
+  </data>
+  <data name="PRLabel1" xml:space="preserve">
+    <value>نوع :</value>
+  </data>
+  <data name="PRLabel10" xml:space="preserve">
+    <value>نتیجه :</value>
+  </data>
+  <data name="PRLabel2" xml:space="preserve">
+    <value>وضعیت :</value>
+  </data>
+  <data name="PRLabel3" xml:space="preserve">
+    <value>سایز :</value>
+  </data>
+  <data name="PRLabel4" xml:space="preserve">
+    <value>ذخیره در :</value>
+  </data>
+  <data name="PRLabel5" xml:space="preserve">
+    <value>آدرس :</value>
+  </data>
+  <data name="PRLabel6" xml:space="preserve">
+    <value>توضیحات :</value>
+  </data>
+  <data name="PRLabel7" xml:space="preserve">
+    <value>نام کاربری :</value>
+  </data>
+  <data name="PRLabel8" xml:space="preserve">
+    <value>رمز عبور :</value>
+  </data>
+  <data name="PRLabel9" xml:space="preserve">
+    <value>زمان آخرین تلاش :</value>
+  </data>
+  <data name="PropertiseToolStripMenuItem" xml:space="preserve">
+    <value>مشخصات</value>
+  </data>
+  <data name="RedownloadToolStripMenuItem" xml:space="preserve">
+    <value>دانلود مجدد</value>
+  </data>
+  <data name="RemoveToolStripMenuItem" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ResumeDownloadToolStripMenuItem" xml:space="preserve">
+    <value>ادامه دانلود</value>
+  </data>
+  <data name="SCbtnapply" xml:space="preserve">
+    <value>اجرا</value>
+  </data>
+  <data name="SCbtnclose" xml:space="preserve">
+    <value>پنهان </value>
+  </data>
+  <data name="SCbtnexit" xml:space="preserve">
+    <value>ببند</value>
+  </data>
+  <data name="SCbtnstart" xml:space="preserve">
+    <value>شروع</value>
+  </data>
+  <data name="SCbtnstop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="SCCdescriptionl" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="SCcheckexit" xml:space="preserve">
+    <value>بعد از اتمام دانلودها برنامه را ببند</value>
+  </data>
+  <data name="SCcheckfriday" xml:space="preserve">
+    <value>جمعه</value>
+  </data>
+  <data name="SCcheckhangmodem" xml:space="preserve">
+    <value>بعد از اتمام دانلودها , اینترنت را قطع کن</value>
+  </data>
+  <data name="SCcheckmonday" xml:space="preserve">
+    <value>دوشنبه</value>
+  </data>
+  <data name="SCcheckopenfile" xml:space="preserve">
+    <value>فایل زیر بعد از اتمام دانلود باز شود</value>
+  </data>
+  <data name="SCcheckretrycount" xml:space="preserve">
+    <value>تعداد دفعات سعی مجدد برای فایلهایی که با خطا مواجه میشوند :</value>
+  </data>
+  <data name="SCchecksaturday" xml:space="preserve">
+    <value>شنبه</value>
+  </data>
+  <data name="SCcheckstarttime" xml:space="preserve">
+    <value>زمان شروع دانلود </value>
+  </data>
+  <data name="SCcheckstartup" xml:space="preserve">
+    <value>دانلودها همراه با شروع اجرای برنامه آغاز شوند</value>
+  </data>
+  <data name="SCcheckstoptime" xml:space="preserve">
+    <value>قطع دانلود در زمان</value>
+  </data>
+  <data name="SCchecksunday" xml:space="preserve">
+    <value>یکشنبه</value>
+  </data>
+  <data name="SCcheckthursday" xml:space="preserve">
+    <value>پنج شنبه</value>
+  </data>
+  <data name="SCchecktuesday" xml:space="preserve">
+    <value>سه شنبه</value>
+  </data>
+  <data name="SCcheckturnoff" xml:space="preserve">
+    <value>بعد از اتمام دانلود , کامپیوتر را خاموش کن</value>
+  </data>
+  <data name="SCcheckwednesday" xml:space="preserve">
+    <value>چهارشنبه</value>
+  </data>
+  <data name="SCCidl" xml:space="preserve">
+    <value>شماره</value>
+  </data>
+  <data name="SCClasttryl" xml:space="preserve">
+    <value>زمان آخرین تلاش</value>
+  </data>
+  <data name="SCClefttimel" xml:space="preserve">
+    <value>زمان باقیمانده</value>
+  </data>
+  <data name="SCClinkl" xml:space="preserve">
+    <value>لینک</value>
+  </data>
+  <data name="SCCNamel" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="SCCpasswordl" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="SCCsavetol" xml:space="preserve">
+    <value>ذخیره در</value>
+  </data>
+  <data name="SCCsizel" xml:space="preserve">
+    <value>سایز</value>
+  </data>
+  <data name="SCCSpeedl" xml:space="preserve">
+    <value>سرعت</value>
+  </data>
+  <data name="SCCstatusl" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="SCCusernamel" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="SCdledlbl" xml:space="preserve">
+    <value>دانلودشده :</value>
+  </data>
+  <data name="SCforceturnoffcheck" xml:space="preserve">
+    <value>برنامه های درحال اجرا را مجبور به بستن کن</value>
+  </data>
+  <data name="SCfrmschedule" xml:space="preserve">
+    <value>زمان بند</value>
+  </data>
+  <data name="ScheduleToolStripMenuItem" xml:space="preserve">
+    <value>زمان بندی</value>
+  </data>
+  <data name="SCLabel3" xml:space="preserve">
+    <value>دانلود</value>
+  </data>
+  <data name="SCLabel4" xml:space="preserve">
+    <value>دانلود همزمان</value>
+  </data>
+  <data name="SCrbdayli" xml:space="preserve">
+    <value>روزانه</value>
+  </data>
+  <data name="SCrbonce" xml:space="preserve">
+    <value>یکبار در تاریخ</value>
+  </data>
+  <data name="SCremainlbl" xml:space="preserve">
+    <value>باقیمانده :</value>
+  </data>
+  <data name="SCTabPage1" xml:space="preserve">
+    <value>زمان بندی</value>
+  </data>
+  <data name="SCTabPage2" xml:space="preserve">
+    <value>فایل های درون صف</value>
+  </data>
+  <data name="StopDownloadToolStripMenuItem" xml:space="preserve">
+    <value>توقف دانلود</value>
+  </data>
+  <data name="TabPage1" xml:space="preserve">
+    <value>دانلود ها</value>
+  </data>
+  <data name="TabPage2" xml:space="preserve">
+    <value>گزارشات</value>
+  </data>
+  <data name="ToolStripMenuItem10" xml:space="preserve">
+    <value>دانلود مجدد</value>
+  </data>
+  <data name="ToolStripMenuItem12" xml:space="preserve">
+    <value>ایست همه</value>
+  </data>
+  <data name="ToolStripMenuItem13" xml:space="preserve">
+    <value>توقف همه</value>
+  </data>
+  <data name="ToolStripMenuItem3" xml:space="preserve">
+    <value>امور</value>
+  </data>
+  <data name="ToolStripMenuItem4" xml:space="preserve">
+    <value>دانلود</value>
+  </data>
+  <data name="ToolStripMenuItem5" xml:space="preserve">
+    <value>اضافه کردن لینک جدید</value>
+  </data>
+  <data name="ToolStripMenuItem6" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="ToolStripMenuItem7" xml:space="preserve">
+    <value>توقف دانلود</value>
+  </data>
+  <data name="ToolStripMenuItem8" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="UPbtncancel" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="UPbtnok" xml:space="preserve">
+    <value>باشه</value>
+  </data>
+  <data name="UPfrmuserpass" xml:space="preserve">
+    <value>ورود به سایت</value>
+  </data>
+  <data name="UPLabel1" xml:space="preserve">
+    <value>سرور/مسیر</value>
+  </data>
+  <data name="UPLabel2" xml:space="preserve">
+    <value>توجه : آدرس سایت را فقط  در صورتی وارد کنید که اکانتی برای آن سایت دارید</value>
+  </data>
+  <data name="UPLabel3" xml:space="preserve">
+    <value>نام کاربری </value>
+  </data>
+  <data name="UPLabel4" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="ViewToolStripMenuItem" xml:space="preserve">
+    <value>نمایش</value>
+  </data>
+  <data name="OPLabel9" xml:space="preserve">
+    <value>تعداد ارتباطات</value>
+  </data>
+  <data name="DLclosetext" xml:space="preserve">
+    <value>&lt;&lt; پنهان کردن جزئیات</value>
+  </data>
+  <data name="DLopentext" xml:space="preserve">
+    <value>نمایش جزئیات &gt;&gt;</value>
+  </data>
+  <data name="ADLabel6" xml:space="preserve">
+    <value>توضیحات :</value>
+  </data>
+  <data name="DLList1Downloaded" xml:space="preserve">
+    <value>دانلود شده</value>
+  </data>
+  <data name="DLList1ID" xml:space="preserve">
+    <value>شناسه</value>
+  </data>
+  <data name="DLList1sts" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="FeedbackToolStripMenuItem" xml:space="preserve">
+    <value>باز خورد</value>
+  </data>
+  <data name="FDbtnclose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="FDbtnersal" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="FDbtnweb" xml:space="preserve">
+    <value>وبلاگ</value>
+  </data>
+  <data name="FDGroupBox1" xml:space="preserve">
+    <value>لطفا نام و آدرس پست الکترونیک خود را وارد نمایید</value>
+  </data>
+  <data name="FDGroupBox2" xml:space="preserve">
+    <value>لطفا نظرات ، پیشنهادات و اشکالات نرم افزار را در پایین نوشته و سپس بر روی دکمه "ارسال" کلیک نمایید</value>
+  </data>
+  <data name="FDlblmail" xml:space="preserve">
+    <value>پست الکترونیک </value>
+  </data>
+  <data name="FDlblname" xml:space="preserve">
+    <value>نام </value>
+  </data>
+  <data name="FDlblsubject" xml:space="preserve">
+    <value>موضوع </value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>بازخورد</value>
+  </data>
+  <data name="ShowDropTargetToolStripMenuItem" xml:space="preserve">
+    <value>نمایش سبد پرتاب</value>
+  </data>
+  <data name="OPButton4" xml:space="preserve">
+    <value>انتخاب فونت</value>
+  </data>
+  <data name="OPButton5" xml:space="preserve">
+    <value>انتخاب رنگ نوشته ها</value>
+  </data>
+  <data name="OPButton6" xml:space="preserve">
+    <value>انتخاب رنگ پس زمینه فرم ها</value>
+  </data>
+  <data name="OPButton7" xml:space="preserve">
+    <value>بازیابی پیش فرض</value>
+  </data>
+  <data name="OPGroupBox4" xml:space="preserve">
+    <value>انتخاب فونت و تنظیمات دیگر برای رابط کاربری</value>
+  </data>
+  <data name="OPLabel11" xml:space="preserve">
+    <value>تنظیمات رابط کاربری</value>
+  </data>
+  <data name="OPTabPage5" xml:space="preserve">
+    <value>رابط کاربری</value>
+  </data>
+  <data name="OPLabel12" xml:space="preserve">
+    <value>اگر تعداد کانکشن ها را تغییر دهید، تمامی دانلودها از اول دانلود خواهند شد</value>
+  </data>
+  <data name="OPcheckdefaultpath" xml:space="preserve">
+    <value>استفاده از مسیر پیشفرض برای دانلودها</value>
+  </data>
+  <data name="IconsToolStripMenuItem" xml:space="preserve">
+    <value>آیکون ها</value>
+  </data>
+  <data name="NormalToolStripMenuItem" xml:space="preserve">
+    <value>عادی</value>
+  </data>
+  <data name="SmallToolStripMenuItem" xml:space="preserve">
+    <value>کوچک</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>سبد پرتاب</value>
+  </data>
+  <data name="UPEfrmuserpass" xml:space="preserve">
+    <value>ورود به سایت</value>
+  </data>
+  <data name="UPELabel1" xml:space="preserve">
+    <value>سرور/مسیر</value>
+  </data>
+  <data name="UPELabel2" xml:space="preserve">
+    <value>توجه : آدرس سایت را فقط  در صورتی وارد کنید که اکانتی برای آن سایت دارید</value>
+  </data>
+  <data name="UPELabel3" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="UPELabel4" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="ADchdlnow" xml:space="preserve">
+    <value>بعدا دانلود کن</value>
+  </data>
+  <data name="ADchdpath" xml:space="preserve">
+    <value>استفاده از مسیر پیشفرض</value>
+  </data>
+  <data name="ADLabel7" xml:space="preserve">
+    <value>نام فایل :</value>
+  </data>
+  <data name="PRLabel14" xml:space="preserve">
+    <value>ارجاع دهنده :</value>
+  </data>
+  <data name="PRbtnopenlink" xml:space="preserve">
+    <value>باز کن</value>
+  </data>
+  <data name="OPLabel13" xml:space="preserve">
+    <value>مدت ریسِت اتوماتیک دانلود</value>
+  </data>
+  <data name="OPLabel14" xml:space="preserve">
+    <value>ثانیه</value>
+  </data>
+</root>

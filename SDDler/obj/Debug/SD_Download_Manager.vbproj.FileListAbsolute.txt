@@ -1,0 +1,173 @@
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.exe.config
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD Download Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD Download Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD Download Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.exe.manifest
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\bin\Debug\SD Download Manager.application
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD Download Manager.exe.manifest
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\obj\Debug\SD Download Manager.application
+E:\My Application\SDDler\SDDler\SDDler\bin\Debug\SD Download Manager.exe.config
+E:\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.exe
+E:\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.xml
+E:\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.pdb
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\bin\Debug\SD Download Manager.exe.config
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\bin\Debug\SD Download Manager.exe
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\bin\Debug\SD Download Manager.pdb
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\bin\Debug\SD Download Manager.xml
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.exe
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.xml
+C:\Users\Sajjad Tanha\Dropbox\My Application\SDDler\SDDler\SDDler\obj\Debug\SD Download Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.config
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.config
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.manifest
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.application
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FrmError.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmFeedBack.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.SendingDialog.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.TrustInfo.xml
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe.manifest
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.application
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmdrop.resources
+C:\Users\Sajjad\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmDeleting.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.config
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.manifest
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.application
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.pdb
+E:\My Application\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.xml
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmDeleting.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmdrop.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FrmError.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmFeedBack.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.SendingDialog.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.TrustInfo.xml
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe.manifest
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.application
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.xml
+E:\My Application\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.config
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe.manifest
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.application
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\bin\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.EN.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FA.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.AboutBox1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Form1.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Resources.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Addlink.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.dlform.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmDeleting.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmdrop.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmenteruserpass.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.FrmError.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmFeedBack.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.msgdelete.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.multiprogressbar.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.myprogressbar.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.openfile.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmoption.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmpropertise.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmschedule.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmuserpass.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.SendingDialog.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.Soundpicker.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.vbproj.GenerateResource.Cache
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.TrustInfo.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe.manifest
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.application
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.xml
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.pdb
