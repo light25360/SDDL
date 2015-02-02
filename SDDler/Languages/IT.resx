@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutToolStripMenuItem" xml:space="preserve">
+    <value>Circa</value>
+  </data>
+  <data name="AboutToolStripMenuItem1" xml:space="preserve">
+    <value>Circa</value>
+  </data>
+  <data name="ADButton1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ADButton2" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="ADCheckBox1" xml:space="preserve">
+    <value>Usa autorizzazione</value>
+  </data>
+  <data name="Addlink" xml:space="preserve">
+    <value>Aggiungi link</value>
+  </data>
+  <data name="AddLinkToolStripMenuItem" xml:space="preserve">
+    <value>Aggiungi URL</value>
+  </data>
+  <data name="ADLabel1" xml:space="preserve">
+    <value>Indirizzo :</value>
+  </data>
+  <data name="ADLabel2" xml:space="preserve">
+    <value>Nome Utente :</value>
+  </data>
+  <data name="ADLabel3" xml:space="preserve">
+    <value>Password :</value>
+  </data>
+  <data name="ADlbldescription" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="ArrangeFilesToolStripMenuItem" xml:space="preserve">
+    <value>Organizza i files</value>
+  </data>
+  <data name="ByFileNameToolStripMenuItem" xml:space="preserve">
+    <value>Per Nome File</value>
+  </data>
+  <data name="ByIDToolStripMenuItem" xml:space="preserve">
+    <value>Per ID</value>
+  </data>
+  <data name="ByLastTryDateToolStripMenuItem" xml:space="preserve">
+    <value>Per Data Ultimo Tentativo</value>
+  </data>
+  <data name="ByLeftTimeToolStripMenuItem" xml:space="preserve">
+    <value>Per Tempo Rimanente</value>
+  </data>
+  <data name="BySizeToolStripMenuItem" xml:space="preserve">
+    <value>Per Dimensione</value>
+  </data>
+  <data name="ByStatusToolStripMenuItem" xml:space="preserve">
+    <value>Per Stato</value>
+  </data>
+  <data name="ByToolStripMenuItem" xml:space="preserve">
+    <value>Per Velocità</value>
+  </data>
+  <data name="checkuseproxy" xml:space="preserve">
+    <value>Usa proxy di sistema</value>
+  </data>
+  <data name="CLdate" xml:space="preserve">
+    <value>Data ultimo tentativo</value>
+  </data>
+  <data name="CLDescription" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="CLink" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="CLname" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="CLnomber" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CLpassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CLsize" xml:space="preserve">
+    <value>Dimensione</value>
+  </data>
+  <data name="CLspeed" xml:space="preserve">
+    <value>Velocità</value>
+  </data>
+  <data name="CLstatus" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="CLtime" xml:space="preserve">
+    <value>Tempo rimanente</value>
+  </data>
+  <data name="CLusername" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="DELbtnno" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="DELbtnyes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="DELcheckdontshow" xml:space="preserve">
+    <value>Non mostrare più questa finestra di dialogo</value>
+  </data>
+  <data name="DeleteAllcompletedToolStripMenuItem" xml:space="preserve">
+    <value>Cancellazione completata</value>
+  </data>
+  <data name="DELLabel1" xml:space="preserve">
+    <value>Sei sicuro di voler cancellare questo/i file?</value>
+  </data>
+  <data name="DELmsgdelete" xml:space="preserve">
+    <value>Cancella richiesta</value>
+  </data>
+  <data name="DLbtnpause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="DLbtnresume" xml:space="preserve">
+    <value>Riprendi</value>
+  </data>
+  <data name="DLbtnstop" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="DLexitchek" xml:space="preserve">
+    <value>Esci da SD download manager quando è completato</value>
+  </data>
+  <data name="DLforceturnoffcheck" xml:space="preserve">
+    <value>Forza l'interruzione dei processi</value>
+  </data>
+  <data name="DLl1" xml:space="preserve">
+    <value>Scaricati</value>
+  </data>
+  <data name="DLl2" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="DLl3" xml:space="preserve">
+    <value>Dimensione File</value>
+  </data>
+  <data name="DLl4" xml:space="preserve">
+    <value>Velocità</value>
+  </data>
+  <data name="DLl5" xml:space="preserve">
+    <value>Tempo rimanente</value>
+  </data>
+  <data name="DLLabel10" xml:space="preserve">
+    <value>Tipo di file</value>
+  </data>
+  <data name="DLLabel14" xml:space="preserve">
+    <value>Possibilità di riprendere</value>
+  </data>
+  <data name="DLLabel15" xml:space="preserve">
+    <value>Tempo trascorso</value>
+  </data>
+  <data name="DLLabel16" xml:space="preserve">
+    <value>Segmenti totali</value>
+  </data>
+  <data name="DLLabel17" xml:space="preserve">
+    <value>Segmento attuale</value>
+  </data>
+  <data name="DLLabel7" xml:space="preserve">
+    <value>Salva in</value>
+  </data>
+  <data name="DLLabel9" xml:space="preserve">
+    <value>Queste impostazioni non sono disponibili quando è attiva l'opzione "Mostra la finestra dei download completati"</value>
+  </data>
+  <data name="DLoptiontab" xml:space="preserve">
+    <value>Opzione al termine</value>
+  </data>
+  <data name="DLpcturnoffchek" xml:space="preserve">
+    <value>Spengi il computer quando è completato</value>
+  </data>
+  <data name="DLshowdialogchk" xml:space="preserve">
+    <value>Mostra la finestra dei download completati</value>
+  </data>
+  <data name="DLstatustab" xml:space="preserve">
+    <value>Stato del download</value>
+  </data>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="FilesToolStripMenuItem" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="HelpToolStripMenuItem" xml:space="preserve">
+    <value>Aiuto</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>Aggiungi link</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>Riprendi</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>Interrompi</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>Interrompi Tutto</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>Cancellazione completata</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="LanguageToolStripMenuItem" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Llocation" xml:space="preserve">
+    <value>Salva in</value>
+  </data>
+  <data name="OPbtncancel" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="OPbtncheckfornewversion" xml:space="preserve">
+    <value>Controlla aggiornamenti</value>
+  </data>
+  <data name="OPbtnedit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="OPbtnnew" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="OPbtnok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OPbtnremove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="opButton1" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="opButton2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="opButton3" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="OPcheckautoupdate" xml:space="preserve">
+    <value>Controlla automaticamente gli aggiornamenti</value>
+  </data>
+  <data name="OPcheckcancelled" xml:space="preserve">
+    <value>Download non riuscito</value>
+  </data>
+  <data name="OPcheckcompleted" xml:space="preserve">
+    <value>Download completato</value>
+  </data>
+  <data name="OPcheckdontshoedelete" xml:space="preserve">
+    <value>Non mostrare la finestra di eliminazione quando si cancellano files dalla lista</value>
+  </data>
+  <data name="OPcheckgrabfromclipboard" xml:space="preserve">
+    <value>Prendi il link del download dagli appunti</value>
+  </data>
+  <data name="OPcheckshownotification" xml:space="preserve">
+    <value>Mostra una notifica sul desktop quando il download è Completato</value>
+  </data>
+  <data name="OPcheckstartup" xml:space="preserve">
+    <value>Avvia SD Download Manager all'avvio di windows</value>
+  </data>
+  <data name="opcheckusefiletype" xml:space="preserve">
+    <value>Avvia automaticamente il download solo per questo tipo di file</value>
+  </data>
+  <data name="OPCpass" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="OPCsite" xml:space="preserve">
+    <value>Sito/Percorso</value>
+  </data>
+  <data name="OPCuser" xml:space="preserve">
+    <value>Utente</value>
+  </data>
+  <data name="OPEbtnopenwith" xml:space="preserve">
+    <value>Apri con</value>
+  </data>
+  <data name="OPEButton1" xml:space="preserve">
+    <value>Apri</value>
+  </data>
+  <data name="OPEButton3" xml:space="preserve">
+    <value>Apri cartella</value>
+  </data>
+  <data name="OPEButton4" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="OPELabel1" xml:space="preserve">
+    <value>Download completato</value>
+  </data>
+  <data name="OPELabel2" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="OPELabel3" xml:space="preserve">
+    <value>Il file salvato come</value>
+  </data>
+  <data name="OPELabel5" xml:space="preserve">
+    <value>Scaricati</value>
+  </data>
+  <data name="OpenFolderToolStripMenuItem" xml:space="preserve">
+    <value>Apri cartella</value>
+  </data>
+  <data name="OpenSDMToolStripMenuItem" xml:space="preserve">
+    <value>Apri app</value>
+  </data>
+  <data name="OpenToolStripMenuItem" xml:space="preserve">
+    <value>Apri</value>
+  </data>
+  <data name="OpenWithToolStripMenuItem" xml:space="preserve">
+    <value>Apri con...</value>
+  </data>
+  <data name="OPfrmoption" xml:space="preserve">
+    <value>Opzione</value>
+  </data>
+  <data name="OPGroupBox1" xml:space="preserve">
+    <value>Impostazioni Generali</value>
+  </data>
+  <data name="OPGroupBox2" xml:space="preserve">
+    <value>Seleziona suoni ed eventi</value>
+  </data>
+  <data name="OPLabel1" xml:space="preserve">
+    <value>Impostazione Generale</value>
+  </data>
+  <data name="OPLabel3" xml:space="preserve">
+    <value>Impostazioni Audio</value>
+  </data>
+  <data name="OPLabel5" xml:space="preserve">
+    <value>Nomi utente e passwords per server/siti</value>
+  </data>
+  <data name="opLabel8" xml:space="preserve">
+    <value>Tipi di file scaricati</value>
+  </data>
+  <data name="OPlblcheck" xml:space="preserve">
+    <value>Verifica in corso, Per favore aspetta ...</value>
+  </data>
+  <data name="OPTabPage1" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="OPTabPage2" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="OPTabPage3" xml:space="preserve">
+    <value>Login siti</value>
+  </data>
+  <data name="opTabPage4" xml:space="preserve">
+    <value>Tipi di file</value>
+  </data>
+  <data name="OptionToolStripMenuItem" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="PRbtnclose" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="PRbtnopen" xml:space="preserve">
+    <value>Apri</value>
+  </data>
+  <data name="PRfrmpropertise" xml:space="preserve">
+    <value>Proprietà File</value>
+  </data>
+  <data name="PRLabel1" xml:space="preserve">
+    <value>Tipo :</value>
+  </data>
+  <data name="PRLabel10" xml:space="preserve">
+    <value>Risultato :</value>
+  </data>
+  <data name="PRLabel2" xml:space="preserve">
+    <value>Stato :</value>
+  </data>
+  <data name="PRLabel3" xml:space="preserve">
+    <value>Dimensione :</value>
+  </data>
+  <data name="PRLabel4" xml:space="preserve">
+    <value>Salva in :</value>
+  </data>
+  <data name="PRLabel5" xml:space="preserve">
+    <value>Indirizzo :</value>
+  </data>
+  <data name="PRLabel6" xml:space="preserve">
+    <value>Descrizione :</value>
+  </data>
+  <data name="PRLabel7" xml:space="preserve">
+    <value>Entra :</value>
+  </data>
+  <data name="PRLabel8" xml:space="preserve">
+    <value>Password :</value>
+  </data>
+  <data name="PRLabel9" xml:space="preserve">
+    <value>Data ultimo tentativo :</value>
+  </data>
+  <data name="PropertiseToolStripMenuItem" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+  <data name="RedownloadToolStripMenuItem" xml:space="preserve">
+    <value>Scarica nuovamente</value>
+  </data>
+  <data name="RemoveToolStripMenuItem" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="ResumeDownloadToolStripMenuItem" xml:space="preserve">
+    <value>Riprendi download</value>
+  </data>
+  <data name="SCbtnapply" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="SCbtnclose" xml:space="preserve">
+    <value>Nascondi</value>
+  </data>
+  <data name="SCbtnexit" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="SCbtnstart" xml:space="preserve">
+    <value>Inizia ora</value>
+  </data>
+  <data name="SCbtnstop" xml:space="preserve">
+    <value>Ferma</value>
+  </data>
+  <data name="SCCdescriptionl" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="SCcheckexit" xml:space="preserve">
+    <value>Esci da SD Download Manager quando è completato</value>
+  </data>
+  <data name="SCcheckfriday" xml:space="preserve">
+    <value>Venerdì</value>
+  </data>
+  <data name="SCcheckhangmodem" xml:space="preserve">
+    <value>Resetta il modem quando è completato</value>
+  </data>
+  <data name="SCcheckmonday" xml:space="preserve">
+    <value>Lunedì</value>
+  </data>
+  <data name="SCcheckopenfile" xml:space="preserve">
+    <value>Apri il seguente file quando è pronto</value>
+  </data>
+  <data name="SCcheckretrycount" xml:space="preserve">
+    <value>Numero di tentativi per ogni file se il download non riesce :</value>
+  </data>
+  <data name="SCchecksaturday" xml:space="preserve">
+    <value>Sabato</value>
+  </data>
+  <data name="SCcheckstarttime" xml:space="preserve">
+    <value>Avvia il download a</value>
+  </data>
+  <data name="SCcheckstartup" xml:space="preserve">
+    <value>Inizia il download all'avvio di SD Download Manager</value>
+  </data>
+  <data name="SCcheckstoptime" xml:space="preserve">
+    <value>Ferma il download a</value>
+  </data>
+  <data name="SCchecksunday" xml:space="preserve">
+    <value>Domenica</value>
+  </data>
+  <data name="SCcheckthursday" xml:space="preserve">
+    <value>Giovedì</value>
+  </data>
+  <data name="SCchecktuesday" xml:space="preserve">
+    <value>Martedì</value>
+  </data>
+  <data name="SCcheckturnoff" xml:space="preserve">
+    <value>Spengi il computer quando è completato</value>
+  </data>
+  <data name="SCcheckwednesday" xml:space="preserve">
+    <value>Mercoledì</value>
+  </data>
+  <data name="SCCidl" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SCClasttryl" xml:space="preserve">
+    <value>Data ultimo tentativo</value>
+  </data>
+  <data name="SCClefttimel" xml:space="preserve">
+    <value>Tempo rimanente</value>
+  </data>
+  <data name="SCClinkl" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="SCCNamel" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="SCCpasswordl" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SCCsavetol" xml:space="preserve">
+    <value>Salva in</value>
+  </data>
+  <data name="SCCsizel" xml:space="preserve">
+    <value>Dimensione</value>
+  </data>
+  <data name="SCCSpeedl" xml:space="preserve">
+    <value>Velocità</value>
+  </data>
+  <data name="SCCstatusl" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="SCCusernamel" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="SCdledlbl" xml:space="preserve">
+    <value>Scaricati :</value>
+  </data>
+  <data name="SCforceturnoffcheck" xml:space="preserve">
+    <value>Forza l'interruzione dei processi</value>
+  </data>
+  <data name="SCfrmschedule" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="ScheduleToolStripMenuItem" xml:space="preserve">
+    <value>Pianifica</value>
+  </data>
+  <data name="SCLabel3" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="SCLabel4" xml:space="preserve">
+    <value>file allo stesso tempo</value>
+  </data>
+  <data name="SCrbdayli" xml:space="preserve">
+    <value>Giornaliero</value>
+  </data>
+  <data name="SCrbonce" xml:space="preserve">
+    <value>Una volta al</value>
+  </data>
+  <data name="SCremainlbl" xml:space="preserve">
+    <value>rimanenti :</value>
+  </data>
+  <data name="SCTabPage1" xml:space="preserve">
+    <value>Pianifica</value>
+  </data>
+  <data name="SCTabPage2" xml:space="preserve">
+    <value>Files in coda</value>
+  </data>
+  <data name="StopDownloadToolStripMenuItem" xml:space="preserve">
+    <value>Ferma download</value>
+  </data>
+  <data name="TabPage1" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="TabPage2" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="ToolStripMenuItem10" xml:space="preserve">
+    <value>Scarica nuovamente</value>
+  </data>
+  <data name="ToolStripMenuItem12" xml:space="preserve">
+    <value>Tutto in Pausa</value>
+  </data>
+  <data name="ToolStripMenuItem13" xml:space="preserve">
+    <value>Interrompi Tutto</value>
+  </data>
+  <data name="ToolStripMenuItem3" xml:space="preserve">
+    <value>Compito</value>
+  </data>
+  <data name="ToolStripMenuItem4" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ToolStripMenuItem5" xml:space="preserve">
+    <value>Aggiungi nuovo link</value>
+  </data>
+  <data name="ToolStripMenuItem6" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="ToolStripMenuItem7" xml:space="preserve">
+    <value>Ferma download</value>
+  </data>
+  <data name="ToolStripMenuItem8" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="UPbtncancel" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="UPbtnok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UPfrmuserpass" xml:space="preserve">
+    <value>Entra nel sito</value>
+  </data>
+  <data name="UPLabel1" xml:space="preserve">
+    <value>Server/Percorso</value>
+  </data>
+  <data name="UPLabel2" xml:space="preserve">
+    <value>Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server</value>
+  </data>
+  <data name="UPLabel3" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="UPLabel4" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ViewToolStripMenuItem" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="OPLabel9" xml:space="preserve">
+    <value>Numero di connessioni</value>
+  </data>
+  <data name="DLclosetext" xml:space="preserve">
+    <value>&lt;&lt; Nascondi dettagli</value>
+  </data>
+  <data name="DLopentext" xml:space="preserve">
+    <value>Mostra dettagli &gt;&gt;</value>
+  </data>
+  <data name="ADLabel6" xml:space="preserve">
+    <value>Descrizione :</value>
+  </data>
+  <data name="DLList1Downloaded" xml:space="preserve">
+    <value>Scaricati</value>
+  </data>
+  <data name="DLList1ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DLList1sts" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="FeedbackToolStripMenuItem" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FDbtnclose" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="FDbtnersal" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="FDbtnweb" xml:space="preserve">
+    <value>Weblog</value>
+  </data>
+  <data name="FDGroupBox1" xml:space="preserve">
+    <value>Per favore inserisci il tuo nome e l'indirizzo email</value>
+  </data>
+  <data name="FDGroupBox2" xml:space="preserve">
+    <value>Per favore inviaci dei commenti, suggerimenti o segnala dei bugs nel programma e clicca sul bottone "Invia"</value>
+  </data>
+  <data name="FDlblmail" xml:space="preserve">
+    <value>E-Mail </value>
+  </data>
+  <data name="FDlblname" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="FDlblsubject" xml:space="preserve">
+    <value>Soggetto</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="ShowDropTargetToolStripMenuItem" xml:space="preserve">
+    <value>Mostra target di rilascio</value>
+  </data>
+  <data name="OPButton4" xml:space="preserve">
+    <value>Seleziona font</value>
+  </data>
+  <data name="OPButton5" xml:space="preserve">
+    <value>Seleziona i colori del testo</value>
+  </data>
+  <data name="OPButton6" xml:space="preserve">
+    <value>Seleziona il colore di background</value>
+  </data>
+  <data name="OPButton7" xml:space="preserve">
+    <value>Ripristino di default</value>
+  </data>
+  <data name="OPGroupBox4" xml:space="preserve">
+    <value>Seleziona font e altre impostazioni dell'Interfaccia Utente</value>
+  </data>
+  <data name="OPLabel11" xml:space="preserve">
+    <value>Impostazione dell'interfaccia utente</value>
+  </data>
+  <data name="OPTabPage5" xml:space="preserve">
+    <value>Interfaccia utente</value>
+  </data>
+  <data name="OPLabel12" xml:space="preserve">
+    <value>Se cambi il numero delle connessioni tutti i downloads ricominceranno dall'inizio</value>
+  </data>
+  <data name="OPcheckdefaultpath" xml:space="preserve">
+    <value>Usa percorso di default per i downloads</value>
+  </data>
+  <data name="IconsToolStripMenuItem" xml:space="preserve">
+    <value>Icone</value>
+  </data>
+  <data name="NormalToolStripMenuItem" xml:space="preserve">
+    <value>Normale</value>
+  </data>
+  <data name="SmallToolStripMenuItem" xml:space="preserve">
+    <value>Piccolo</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>Target di rilascio</value>
+  </data>
+  <data name="UPEfrmuserpass" xml:space="preserve">
+    <value>Entra nel sito</value>
+  </data>
+  <data name="UPELabel1" xml:space="preserve">
+    <value>Server/Percorso</value>
+  </data>
+  <data name="UPELabel2" xml:space="preserve">
+    <value>Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server</value>
+  </data>
+  <data name="UPELabel3" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="UPELabel4" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ADchdlnow" xml:space="preserve">
+    <value>Scarica in seguito</value>
+  </data>
+  <data name="ADchdpath" xml:space="preserve">
+    <value>Usa percorso di default</value>
+  </data>
+  <data name="ADLabel7" xml:space="preserve">
+    <value>Nome file :</value>
+  </data>
+  <data name="PRLabel14" xml:space="preserve">
+    <value>Referer :</value>
+  </data>
+  <data name="PRbtnopenlink" xml:space="preserve">
+    <value>Apri</value>
+  </data>
+  <data name="OPLabel13" xml:space="preserve">
+    <value>Resetta automaticamente la durata del download</value>
+  </data>
+  <data name="OPLabel14" xml:space="preserve">
+    <value>Secondo</value>
+  </data>
+  <data name="stsCanceled" xml:space="preserve">
+    <value>Annullato</value>
+  </data>
+  <data name="stsCanceling" xml:space="preserve">
+    <value>cancellatura </value>
+  </data>
+  <data name="stsCompleted" xml:space="preserve">
+    <value>Completato</value>
+  </data>
+  <data name="stsConnecting" xml:space="preserve">
+    <value>Collegamento ...</value>
+  </data>
+  <data name="stsDLfaild" xml:space="preserve">
+    <value>Download non riuscito</value>
+  </data>
+  <data name="stsDLfaild_Tryingagain" xml:space="preserve">
+    <value>Download non riuscito - Cercando di nuovo per scaricare</value>
+  </data>
+  <data name="stsDLresetted" xml:space="preserve">
+    <value>Scarica resettato</value>
+  </data>
+  <data name="stsDLresetting" xml:space="preserve">
+    <value>Ripristino scaricare</value>
+  </data>
+  <data name="stsDownloading" xml:space="preserve">
+    <value>Scaricare</value>
+  </data>
+  <data name="stsMerged" xml:space="preserve">
+    <value>File successo scaricato e fusa</value>
+  </data>
+  <data name="stsPaused" xml:space="preserve">
+    <value>In pausa</value>
+  </data>
+  <data name="stsPausing" xml:space="preserve">
+    <value>Mettere in pausa</value>
+  </data>
+  <data name="stsStarting" xml:space="preserve">
+    <value>scaricare partire</value>
+  </data>
+  <data name="stsMergin" xml:space="preserve">
+    <value>Unire le parti scaricate - attendere prego ...</value>
+  </data>
+  <data name="OPCheckOldIcons" xml:space="preserve">
+    <value>Utilizzare vecchie icone</value>
+  </data>
+</root>
