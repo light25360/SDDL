@@ -668,15 +668,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to English.
-        '''</summary>
-        Friend Shared ReadOnly Property EnglishToolStripMenuItem() As String
-            Get
-                Return ResourceManager.GetString("EnglishToolStripMenuItem", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized string similar to Exit.
         '''</summary>
         Friend Shared ReadOnly Property ExitToolStripMenuItem() As String
@@ -1082,6 +1073,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Use old icons.
+        '''</summary>
+        Friend Shared ReadOnly Property OPCheckOldIcons() As String
+            Get
+                Return ResourceManager.GetString("OPCheckOldIcons", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Show desktop notification when download Completed.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckshownotification() As String
@@ -1424,15 +1424,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Persian.
-        '''</summary>
-        Friend Shared ReadOnly Property PersianToolStripMenuItem() As String
-            Get
-                Return ResourceManager.GetString("PersianToolStripMenuItem", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized string similar to Close.
         '''</summary>
         Friend Shared ReadOnly Property PRbtnclose() As String
@@ -1568,7 +1559,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Propertise.
+        '''  Looks up a localized string similar to properties.
         '''</summary>
         Friend Shared ReadOnly Property PropertiseToolStripMenuItem() As String
             Get
@@ -2014,6 +2005,132 @@ Namespace My.Resources
         Friend Shared ReadOnly Property StopDownloadToolStripMenuItem() As String
             Get
                 Return ResourceManager.GetString("StopDownloadToolStripMenuItem", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Canceled.
+        '''</summary>
+        Friend Shared ReadOnly Property stsCanceled() As String
+            Get
+                Return ResourceManager.GetString("stsCanceled", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Canceling.
+        '''</summary>
+        Friend Shared ReadOnly Property stsCanceling() As String
+            Get
+                Return ResourceManager.GetString("stsCanceling", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Completed.
+        '''</summary>
+        Friend Shared ReadOnly Property stsCompleted() As String
+            Get
+                Return ResourceManager.GetString("stsCompleted", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Connecting ....
+        '''</summary>
+        Friend Shared ReadOnly Property stsConnecting() As String
+            Get
+                Return ResourceManager.GetString("stsConnecting", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Download faild.
+        '''</summary>
+        Friend Shared ReadOnly Property stsDLfaild() As String
+            Get
+                Return ResourceManager.GetString("stsDLfaild", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Download faild - Trying again to download.
+        '''</summary>
+        Friend Shared ReadOnly Property stsDLfaild_Tryingagain() As String
+            Get
+                Return ResourceManager.GetString("stsDLfaild_Tryingagain", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Download resetted.
+        '''</summary>
+        Friend Shared ReadOnly Property stsDLresetted() As String
+            Get
+                Return ResourceManager.GetString("stsDLresetted", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Resetting download....
+        '''</summary>
+        Friend Shared ReadOnly Property stsDLresetting() As String
+            Get
+                Return ResourceManager.GetString("stsDLresetting", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Downloading.
+        '''</summary>
+        Friend Shared ReadOnly Property stsDownloading() As String
+            Get
+                Return ResourceManager.GetString("stsDownloading", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to File succesfully downloaded and merged.
+        '''</summary>
+        Friend Shared ReadOnly Property stsMerged() As String
+            Get
+                Return ResourceManager.GetString("stsMerged", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Merging downloaded parts - Please wait....
+        '''</summary>
+        Friend Shared ReadOnly Property stsMergin() As String
+            Get
+                Return ResourceManager.GetString("stsMergin", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Paused.
+        '''</summary>
+        Friend Shared ReadOnly Property stsPaused() As String
+            Get
+                Return ResourceManager.GetString("stsPaused", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Pausing.
+        '''</summary>
+        Friend Shared ReadOnly Property stsPausing() As String
+            Get
+                Return ResourceManager.GetString("stsPausing", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Starting download.
+        '''</summary>
+        Friend Shared ReadOnly Property stsStarting() As String
+            Get
+                Return ResourceManager.GetString("stsStarting", resourceCulture)
             End Get
         End Property
         

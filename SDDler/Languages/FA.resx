@@ -294,9 +294,6 @@
   <data name="DLstatustab" xml:space="preserve">
     <value>وضعیت دانلود</value>
   </data>
-  <data name="EnglishToolStripMenuItem" xml:space="preserve">
-    <value>انگلیسی</value>
-  </data>
   <data name="ExitToolStripMenuItem" xml:space="preserve">
     <value>خروج</value>
   </data>
@@ -470,9 +467,6 @@
   </data>
   <data name="OptionToolStripMenuItem" xml:space="preserve">
     <value>تنظیمات</value>
-  </data>
-  <data name="PersianToolStripMenuItem" xml:space="preserve">
-    <value>فارسی</value>
   </data>
   <data name="PRbtnclose" xml:space="preserve">
     <value>بستن</value>
@@ -842,5 +836,50 @@
   </data>
   <data name="OPLabel14" xml:space="preserve">
     <value>ثانیه</value>
+  </data>
+  <data name="stsCanceled" xml:space="preserve">
+    <value>لغو شده</value>
+  </data>
+  <data name="stsCanceling" xml:space="preserve">
+    <value>در حال لغو کردن</value>
+  </data>
+  <data name="stsCompleted" xml:space="preserve">
+    <value>تکمیل شده</value>
+  </data>
+  <data name="stsConnecting" xml:space="preserve">
+    <value>در حال اتصال ...</value>
+  </data>
+  <data name="stsDLfaild" xml:space="preserve">
+    <value>دانلود ناموفق بود</value>
+  </data>
+  <data name="stsDLfaild_Tryingagain" xml:space="preserve">
+    <value>دانلود ناموفق - در حال تلاش مجدد</value>
+  </data>
+  <data name="stsDLresetted" xml:space="preserve">
+    <value>دانلود ریست گردید</value>
+  </data>
+  <data name="stsDLresetting" xml:space="preserve">
+    <value>در حال ریست دانلود ...</value>
+  </data>
+  <data name="stsDownloading" xml:space="preserve">
+    <value>در حال دریافت</value>
+  </data>
+  <data name="stsMerged" xml:space="preserve">
+    <value>فایل با موفقیت دانلود و یکپارچه سازی شد</value>
+  </data>
+  <data name="stsPaused" xml:space="preserve">
+    <value>متوقف شده</value>
+  </data>
+  <data name="stsPausing" xml:space="preserve">
+    <value>در حال توقف</value>
+  </data>
+  <data name="stsStarting" xml:space="preserve">
+    <value>در حال شروع دانلود ...</value>
+  </data>
+  <data name="stsMergin" xml:space="preserve">
+    <value>...در حال ادغام بخش های دانلود شده - لطفا صبر کنید</value>
+  </data>
+  <data name="OPCheckOldIcons" xml:space="preserve">
+    <value>استفاده از آیکون های قدیمی</value>
   </data>
 </root>

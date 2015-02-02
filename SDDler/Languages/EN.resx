@@ -291,9 +291,6 @@
   <data name="DLstatustab" xml:space="preserve">
     <value>Download status</value>
   </data>
-  <data name="EnglishToolStripMenuItem" xml:space="preserve">
-    <value>English</value>
-  </data>
   <data name="ExitToolStripMenuItem" xml:space="preserve">
     <value>Exit</value>
   </data>
@@ -468,9 +465,6 @@
   <data name="OptionToolStripMenuItem" xml:space="preserve">
     <value>Options</value>
   </data>
-  <data name="PersianToolStripMenuItem" xml:space="preserve">
-    <value>Persian</value>
-  </data>
   <data name="PRbtnclose" xml:space="preserve">
     <value>Close</value>
   </data>
@@ -511,7 +505,7 @@
     <value>Last try date :</value>
   </data>
   <data name="PropertiseToolStripMenuItem" xml:space="preserve">
-    <value>Propertise</value>
+    <value>properties</value>
   </data>
   <data name="RedownloadToolStripMenuItem" xml:space="preserve">
     <value>Redownload</value>
@@ -839,5 +833,50 @@
   </data>
   <data name="OPLabel14" xml:space="preserve">
     <value>Second</value>
+  </data>
+  <data name="stsCanceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="stsCanceling" xml:space="preserve">
+    <value>Canceling</value>
+  </data>
+  <data name="stsCompleted" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="stsConnecting" xml:space="preserve">
+    <value>Connecting ...</value>
+  </data>
+  <data name="stsDLfaild" xml:space="preserve">
+    <value>Download faild</value>
+  </data>
+  <data name="stsDLfaild_Tryingagain" xml:space="preserve">
+    <value>Download faild - Trying again to download</value>
+  </data>
+  <data name="stsDLresetted" xml:space="preserve">
+    <value>Download resetted</value>
+  </data>
+  <data name="stsDLresetting" xml:space="preserve">
+    <value>Resetting download...</value>
+  </data>
+  <data name="stsDownloading" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="stsMerged" xml:space="preserve">
+    <value>File succesfully downloaded and merged</value>
+  </data>
+  <data name="stsPaused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="stsPausing" xml:space="preserve">
+    <value>Pausing</value>
+  </data>
+  <data name="stsStarting" xml:space="preserve">
+    <value>Starting download</value>
+  </data>
+  <data name="stsMergin" xml:space="preserve">
+    <value>Merging downloaded parts - Please wait...</value>
+  </data>
+  <data name="OPCheckOldIcons" xml:space="preserve">
+    <value>Use old icons</value>
   </data>
 </root>

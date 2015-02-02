@@ -413,10 +413,6 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to وضعیت دانلود.
 </summary>
-</member><member name="P:SD_Download_Manager.My.Resources.FA.EnglishToolStripMenuItem">
-	<summary>
-  Looks up a localized string similar to انگلیسی.
-</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.ExitToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to خروج.
@@ -597,6 +593,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to لینکهای موجود در حافظه(کلیپ برد ویندوز) را به صورت اتوماتیک دانلود کن.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.OPCheckOldIcons">
+	<summary>
+  Looks up a localized string similar to استفاده از آیکون های قدیمی.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OPcheckshownotification">
 	<summary>
   Looks up a localized string similar to نشان دادن اطلاع رسانی ویندوز در هنگام اتمام دانلود.
@@ -748,10 +748,6 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OptionToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to تنظیمات.
-</summary>
-</member><member name="P:SD_Download_Manager.My.Resources.FA.PersianToolStripMenuItem">
-	<summary>
-  Looks up a localized string similar to فارسی.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.PRbtnclose">
 	<summary>
@@ -1013,6 +1009,62 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to توقف دانلود.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsCanceled">
+	<summary>
+  Looks up a localized string similar to لغو شده.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsCanceling">
+	<summary>
+  Looks up a localized string similar to در حال لغو کردن.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsCompleted">
+	<summary>
+  Looks up a localized string similar to تکمیل شده.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsConnecting">
+	<summary>
+  Looks up a localized string similar to در حال اتصال ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsDLfaild">
+	<summary>
+  Looks up a localized string similar to دانلود ناموفق بود.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsDLfaild_Tryingagain">
+	<summary>
+  Looks up a localized string similar to دانلود ناموفق - در حال تلاش مجدد.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsDLresetted">
+	<summary>
+  Looks up a localized string similar to دانلود ریست گردید.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsDLresetting">
+	<summary>
+  Looks up a localized string similar to در حال ریست دانلود ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsDownloading">
+	<summary>
+  Looks up a localized string similar to در حال دریافت.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsMerged">
+	<summary>
+  Looks up a localized string similar to فایل با موفقیت دانلود و یکپارچه سازی شد.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsMergin">
+	<summary>
+  Looks up a localized string similar to ...در حال ادغام بخش های دانلود شده - لطفا صبر کنید.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsPaused">
+	<summary>
+  Looks up a localized string similar to متوقف شده.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsPausing">
+	<summary>
+  Looks up a localized string similar to در حال توقف.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsStarting">
+	<summary>
+  Looks up a localized string similar to در حال شروع دانلود ....
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.TabPage1">
 	<summary>
   Looks up a localized string similar to دانلود ها.
@@ -1147,11 +1199,12 @@ SD_Download_Manager
 	<summary>
  The downloading is Completed.
  </summary>
-</member><member name="M:SD_Download_Manager.frmschedule.MoveListViewItem(System.Windows.Forms.ListView@,System.Boolean)">
+</member><member name="M:SD_Download_Manager.frmschedule.MoveItemsInListView(System.Windows.Forms.ListView@,System.Boolean)">
 	<summary>
- Move selected listview item up or down based on moveUp= True/false.
+ Move selected items up or down in the specified listview
  </summary>
-	<param name="moveUp"></param>
+	<param name="lvwListView">The listview to manipulate</param>
+	<param name="blnMoveUp">True to move items up, False to move them down</param>
 </member><member name="P:SD_Download_Manager.HttpDownloadClient.IsRangeSupported">
 	<summary>
  Specify whether the remote server supports "Accept-Ranges" header.
@@ -1239,7 +1292,15 @@ SD_Download_Manager
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.AboutMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.Actions_insert_link_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.AddNewLink">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -1247,7 +1308,43 @@ SD_Download_Manager
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.ArrangeMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.CreditsMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.delete_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.DeleteAllMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.DeleteMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Downloads">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.DropTarget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.ExitMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.FeedbackMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Files">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -1259,11 +1356,27 @@ SD_Download_Manager
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.helpmetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.icon">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.icon_research">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Iran_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Italian_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.LanguageMetro">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -1283,6 +1396,30 @@ SD_Download_Manager
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.OpenSDMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.OptionMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.PauseMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.propertiesMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.RedownloadMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.ScheduleMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.sending">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -1291,7 +1428,31 @@ SD_Download_Manager
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.StopMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.StopNormalRedicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Tasks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Tasks1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.UK_US_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.ViewMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.ViewMetro1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -1304,6 +1465,1035 @@ SD_Download_Manager
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:SD_Download_Manager.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.AboutToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Circa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.AboutToolStripMenuItem1">
+	<summary>
+  Looks up a localized string similar to Circa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADButton1">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADButton2">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADchdlnow">
+	<summary>
+  Looks up a localized string similar to Scarica in seguito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADchdpath">
+	<summary>
+  Looks up a localized string similar to Usa percorso di default.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADCheckBox1">
+	<summary>
+  Looks up a localized string similar to Usa autorizzazione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Addlink">
+	<summary>
+  Looks up a localized string similar to Aggiungi link.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.AddLinkToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Aggiungi URL.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel1">
+	<summary>
+  Looks up a localized string similar to Indirizzo :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel2">
+	<summary>
+  Looks up a localized string similar to Nome Utente :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel3">
+	<summary>
+  Looks up a localized string similar to Password :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel6">
+	<summary>
+  Looks up a localized string similar to Descrizione :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel7">
+	<summary>
+  Looks up a localized string similar to Nome file :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADlbldescription">
+	<summary>
+  Looks up a localized string similar to Descrizione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ArrangeFilesToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Organizza i files.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByFileNameToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Nome File.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByIDToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per ID.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByLastTryDateToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Data Ultimo Tentativo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByLeftTimeToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Tempo Rimanente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.BySizeToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Dimensione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByStatusToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Stato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ByToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Per Velocità.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.checkuseproxy">
+	<summary>
+  Looks up a localized string similar to Usa proxy di sistema.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLdate">
+	<summary>
+  Looks up a localized string similar to Data ultimo tentativo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLDescription">
+	<summary>
+  Looks up a localized string similar to Descrizione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLink">
+	<summary>
+  Looks up a localized string similar to Link.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLname">
+	<summary>
+  Looks up a localized string similar to Nome.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLnomber">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLpassword">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLsize">
+	<summary>
+  Looks up a localized string similar to Dimensione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLspeed">
+	<summary>
+  Looks up a localized string similar to Velocità.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLstatus">
+	<summary>
+  Looks up a localized string similar to Stato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLtime">
+	<summary>
+  Looks up a localized string similar to Tempo rimanente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.CLusername">
+	<summary>
+  Looks up a localized string similar to Nome utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DELbtnno">
+	<summary>
+  Looks up a localized string similar to No.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DELbtnyes">
+	<summary>
+  Looks up a localized string similar to Sì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DELcheckdontshow">
+	<summary>
+  Looks up a localized string similar to Non mostrare più questa finestra di dialogo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DeleteAllcompletedToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Cancellazione completata.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DELLabel1">
+	<summary>
+  Looks up a localized string similar to Sei sicuro di voler cancellare questo/i file?.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DELmsgdelete">
+	<summary>
+  Looks up a localized string similar to Cancella richiesta.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLbtnpause">
+	<summary>
+  Looks up a localized string similar to Pausa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLbtnresume">
+	<summary>
+  Looks up a localized string similar to Riprendi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLbtnstop">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLclosetext">
+	<summary>
+  Looks up a localized string similar to &lt;&lt; Nascondi dettagli.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLexitchek">
+	<summary>
+  Looks up a localized string similar to Esci da SD download manager quando è completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLforceturnoffcheck">
+	<summary>
+  Looks up a localized string similar to Forza l'interruzione dei processi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLl1">
+	<summary>
+  Looks up a localized string similar to Scaricati.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLl2">
+	<summary>
+  Looks up a localized string similar to Stato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLl3">
+	<summary>
+  Looks up a localized string similar to Dimensione File.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLl4">
+	<summary>
+  Looks up a localized string similar to Velocità.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLl5">
+	<summary>
+  Looks up a localized string similar to Tempo rimanente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel10">
+	<summary>
+  Looks up a localized string similar to Tipo di file.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel14">
+	<summary>
+  Looks up a localized string similar to Possibilità di riprendere.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel15">
+	<summary>
+  Looks up a localized string similar to Tempo trascorso.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel16">
+	<summary>
+  Looks up a localized string similar to Segmenti totali.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel17">
+	<summary>
+  Looks up a localized string similar to Segmento attuale.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel7">
+	<summary>
+  Looks up a localized string similar to Salva in.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLLabel9">
+	<summary>
+  Looks up a localized string similar to Queste impostazioni non sono disponibili quando è attiva l'opzione "Mostra la finestra dei download completati".
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLList1Downloaded">
+	<summary>
+  Looks up a localized string similar to Scaricati.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLList1ID">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLList1sts">
+	<summary>
+  Looks up a localized string similar to Stato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLopentext">
+	<summary>
+  Looks up a localized string similar to Mostra dettagli &gt;&gt;.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLoptiontab">
+	<summary>
+  Looks up a localized string similar to Opzione al termine.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLpcturnoffchek">
+	<summary>
+  Looks up a localized string similar to Spengi il computer quando è completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLshowdialogchk">
+	<summary>
+  Looks up a localized string similar to Mostra la finestra dei download completati.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.DLstatustab">
+	<summary>
+  Looks up a localized string similar to Stato del download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ExitToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Esci.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDbtnclose">
+	<summary>
+  Looks up a localized string similar to Chiudi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDbtnersal">
+	<summary>
+  Looks up a localized string similar to Invia.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDbtnweb">
+	<summary>
+  Looks up a localized string similar to Weblog.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDGroupBox1">
+	<summary>
+  Looks up a localized string similar to Per favore inserisci il tuo nome e l'indirizzo email.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDGroupBox2">
+	<summary>
+  Looks up a localized string similar to Per favore inviaci dei commenti, suggerimenti o segnala dei bugs nel programma e clicca sul bottone "Invia".
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDlblmail">
+	<summary>
+  Looks up a localized string similar to E-Mail .
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDlblname">
+	<summary>
+  Looks up a localized string similar to Nome.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDlblsubject">
+	<summary>
+  Looks up a localized string similar to Soggetto.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FeedbackToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Feedback.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FilesToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to File.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.HelpToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Aiuto.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.IconsToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Icone.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label10">
+	<summary>
+  Looks up a localized string similar to Feedback.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label11">
+	<summary>
+  Looks up a localized string similar to Target di rilascio.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label2">
+	<summary>
+  Looks up a localized string similar to Aggiungi link.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label3">
+	<summary>
+  Looks up a localized string similar to Riprendi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label4">
+	<summary>
+  Looks up a localized string similar to Interrompi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label5">
+	<summary>
+  Looks up a localized string similar to Interrompi Tutto.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label6">
+	<summary>
+  Looks up a localized string similar to Scheduler.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label7">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label8">
+	<summary>
+  Looks up a localized string similar to Cancellazione completata.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Label9">
+	<summary>
+  Looks up a localized string similar to Opzioni.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.LanguageToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Lingua.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.Llocation">
+	<summary>
+  Looks up a localized string similar to Salva in.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.NormalToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Normale.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtncancel">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtncheckfornewversion">
+	<summary>
+  Looks up a localized string similar to Controlla aggiornamenti.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtnedit">
+	<summary>
+  Looks up a localized string similar to Modifica.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtnnew">
+	<summary>
+  Looks up a localized string similar to Nuovo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtnok">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPbtnremove">
+	<summary>
+  Looks up a localized string similar to Rimuovi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opButton1">
+	<summary>
+  Looks up a localized string similar to Aggiungi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opButton2">
+	<summary>
+  Looks up a localized string similar to Default.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opButton3">
+	<summary>
+  Looks up a localized string similar to Rimuovi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPButton4">
+	<summary>
+  Looks up a localized string similar to Seleziona font.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPButton5">
+	<summary>
+  Looks up a localized string similar to Seleziona i colori del testo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPButton6">
+	<summary>
+  Looks up a localized string similar to Seleziona il colore di background.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPButton7">
+	<summary>
+  Looks up a localized string similar to Ripristino di default.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckautoupdate">
+	<summary>
+  Looks up a localized string similar to Controlla automaticamente gli aggiornamenti.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckcancelled">
+	<summary>
+  Looks up a localized string similar to Download non riuscito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckcompleted">
+	<summary>
+  Looks up a localized string similar to Download completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckdefaultpath">
+	<summary>
+  Looks up a localized string similar to Usa percorso di default per i downloads.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckdontshoedelete">
+	<summary>
+  Looks up a localized string similar to Non mostrare la finestra di eliminazione quando si cancellano files dalla lista.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckgrabfromclipboard">
+	<summary>
+  Looks up a localized string similar to Prendi il link del download dagli appunti.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPCheckOldIcons">
+	<summary>
+  Looks up a localized string similar to Utilizzare vecchie icone.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckshownotification">
+	<summary>
+  Looks up a localized string similar to Mostra una notifica sul desktop quando il download è Completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPcheckstartup">
+	<summary>
+  Looks up a localized string similar to Avvia SD Download Manager all'avvio di windows.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opcheckusefiletype">
+	<summary>
+  Looks up a localized string similar to Avvia automaticamente il download solo per questo tipo di file.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPCpass">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPCsite">
+	<summary>
+  Looks up a localized string similar to Sito/Percorso.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPCuser">
+	<summary>
+  Looks up a localized string similar to Utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPEbtnopenwith">
+	<summary>
+  Looks up a localized string similar to Apri con.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPEButton1">
+	<summary>
+  Looks up a localized string similar to Apri.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPEButton3">
+	<summary>
+  Looks up a localized string similar to Apri cartella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPEButton4">
+	<summary>
+  Looks up a localized string similar to Chiudi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPELabel1">
+	<summary>
+  Looks up a localized string similar to Download completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPELabel2">
+	<summary>
+  Looks up a localized string similar to Indirizzo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPELabel3">
+	<summary>
+  Looks up a localized string similar to Il file salvato come.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPELabel5">
+	<summary>
+  Looks up a localized string similar to Scaricati.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OpenFolderToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Apri cartella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OpenSDMToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Apri app.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OpenToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Apri.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OpenWithToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Apri con....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPfrmoption">
+	<summary>
+  Looks up a localized string similar to Opzione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPGroupBox1">
+	<summary>
+  Looks up a localized string similar to Impostazioni Generali.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPGroupBox2">
+	<summary>
+  Looks up a localized string similar to Seleziona suoni ed eventi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPGroupBox4">
+	<summary>
+  Looks up a localized string similar to Seleziona font e altre impostazioni dell'Interfaccia Utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel1">
+	<summary>
+  Looks up a localized string similar to Impostazione Generale.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel11">
+	<summary>
+  Looks up a localized string similar to Impostazione dell'interfaccia utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel12">
+	<summary>
+  Looks up a localized string similar to Se cambi il numero delle connessioni tutti i downloads ricominceranno dall'inizio.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel13">
+	<summary>
+  Looks up a localized string similar to Resetta automaticamente la durata del download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel14">
+	<summary>
+  Looks up a localized string similar to Secondo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel3">
+	<summary>
+  Looks up a localized string similar to Impostazioni Audio.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel5">
+	<summary>
+  Looks up a localized string similar to Nomi utente e passwords per server/siti.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opLabel8">
+	<summary>
+  Looks up a localized string similar to Tipi di file scaricati.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel9">
+	<summary>
+  Looks up a localized string similar to Numero di connessioni.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPlblcheck">
+	<summary>
+  Looks up a localized string similar to Verifica in corso, Per favore aspetta ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPTabPage1">
+	<summary>
+  Looks up a localized string similar to Audio.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPTabPage2">
+	<summary>
+  Looks up a localized string similar to Generale.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPTabPage3">
+	<summary>
+  Looks up a localized string similar to Login siti.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.opTabPage4">
+	<summary>
+  Looks up a localized string similar to Tipi di file.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPTabPage5">
+	<summary>
+  Looks up a localized string similar to Interfaccia utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OptionToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Opzioni.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRbtnclose">
+	<summary>
+  Looks up a localized string similar to Chiudi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRbtnopen">
+	<summary>
+  Looks up a localized string similar to Apri.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRbtnopenlink">
+	<summary>
+  Looks up a localized string similar to Apri.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRfrmpropertise">
+	<summary>
+  Looks up a localized string similar to Proprietà File.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel1">
+	<summary>
+  Looks up a localized string similar to Tipo :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel10">
+	<summary>
+  Looks up a localized string similar to Risultato :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel14">
+	<summary>
+  Looks up a localized string similar to Referer :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel2">
+	<summary>
+  Looks up a localized string similar to Stato :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel3">
+	<summary>
+  Looks up a localized string similar to Dimensione :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel4">
+	<summary>
+  Looks up a localized string similar to Salva in :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel5">
+	<summary>
+  Looks up a localized string similar to Indirizzo :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel6">
+	<summary>
+  Looks up a localized string similar to Descrizione :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel7">
+	<summary>
+  Looks up a localized string similar to Entra :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel8">
+	<summary>
+  Looks up a localized string similar to Password :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PRLabel9">
+	<summary>
+  Looks up a localized string similar to Data ultimo tentativo :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.PropertiseToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Proprietà.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.RedownloadToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Scarica nuovamente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.RemoveToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ResumeDownloadToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Riprendi download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCbtnapply">
+	<summary>
+  Looks up a localized string similar to Applica.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCbtnclose">
+	<summary>
+  Looks up a localized string similar to Nascondi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCbtnexit">
+	<summary>
+  Looks up a localized string similar to Chiudi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCbtnstart">
+	<summary>
+  Looks up a localized string similar to Inizia ora.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCbtnstop">
+	<summary>
+  Looks up a localized string similar to Ferma.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCdescriptionl">
+	<summary>
+  Looks up a localized string similar to Descrizione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckexit">
+	<summary>
+  Looks up a localized string similar to Esci da SD Download Manager quando è completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckfriday">
+	<summary>
+  Looks up a localized string similar to Venerdì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckhangmodem">
+	<summary>
+  Looks up a localized string similar to Resetta il modem quando è completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckmonday">
+	<summary>
+  Looks up a localized string similar to Lunedì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckopenfile">
+	<summary>
+  Looks up a localized string similar to Apri il seguente file quando è pronto.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckretrycount">
+	<summary>
+  Looks up a localized string similar to Numero di tentativi per ogni file se il download non riesce :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCchecksaturday">
+	<summary>
+  Looks up a localized string similar to Sabato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckstarttime">
+	<summary>
+  Looks up a localized string similar to Avvia il download a.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckstartup">
+	<summary>
+  Looks up a localized string similar to Inizia il download all'avvio di SD Download Manager.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckstoptime">
+	<summary>
+  Looks up a localized string similar to Ferma il download a.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCchecksunday">
+	<summary>
+  Looks up a localized string similar to Domenica.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckthursday">
+	<summary>
+  Looks up a localized string similar to Giovedì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCchecktuesday">
+	<summary>
+  Looks up a localized string similar to Martedì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckturnoff">
+	<summary>
+  Looks up a localized string similar to Spengi il computer quando è completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCcheckwednesday">
+	<summary>
+  Looks up a localized string similar to Mercoledì.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCidl">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCClasttryl">
+	<summary>
+  Looks up a localized string similar to Data ultimo tentativo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCClefttimel">
+	<summary>
+  Looks up a localized string similar to Tempo rimanente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCClinkl">
+	<summary>
+  Looks up a localized string similar to Link.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCNamel">
+	<summary>
+  Looks up a localized string similar to Nome.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCpasswordl">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCsavetol">
+	<summary>
+  Looks up a localized string similar to Salva in.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCsizel">
+	<summary>
+  Looks up a localized string similar to Dimensione.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCSpeedl">
+	<summary>
+  Looks up a localized string similar to Velocità.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCstatusl">
+	<summary>
+  Looks up a localized string similar to Stato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCCusernamel">
+	<summary>
+  Looks up a localized string similar to Nome utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCdledlbl">
+	<summary>
+  Looks up a localized string similar to Scaricati :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCforceturnoffcheck">
+	<summary>
+  Looks up a localized string similar to Forza l'interruzione dei processi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCfrmschedule">
+	<summary>
+  Looks up a localized string similar to Scheduler.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ScheduleToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Pianifica.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCLabel3">
+	<summary>
+  Looks up a localized string similar to Download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCLabel4">
+	<summary>
+  Looks up a localized string similar to file allo stesso tempo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCrbdayli">
+	<summary>
+  Looks up a localized string similar to Giornaliero.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCrbonce">
+	<summary>
+  Looks up a localized string similar to Una volta al.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCremainlbl">
+	<summary>
+  Looks up a localized string similar to rimanenti :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCTabPage1">
+	<summary>
+  Looks up a localized string similar to Pianifica.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SCTabPage2">
+	<summary>
+  Looks up a localized string similar to Files in coda.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ShowDropTargetToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Mostra target di rilascio.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.SmallToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Piccolo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.StopDownloadToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Ferma download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsCanceled">
+	<summary>
+  Looks up a localized string similar to Annullato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsCanceling">
+	<summary>
+  Looks up a localized string similar to cancellatura .
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsCompleted">
+	<summary>
+  Looks up a localized string similar to Completato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsConnecting">
+	<summary>
+  Looks up a localized string similar to Collegamento ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsDLfaild">
+	<summary>
+  Looks up a localized string similar to Download non riuscito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsDLfaild_Tryingagain">
+	<summary>
+  Looks up a localized string similar to Download non riuscito - Cercando di nuovo per scaricare.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsDLresetted">
+	<summary>
+  Looks up a localized string similar to Scarica resettato.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsDLresetting">
+	<summary>
+  Looks up a localized string similar to Ripristino scaricare.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsDownloading">
+	<summary>
+  Looks up a localized string similar to Scaricare.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsMerged">
+	<summary>
+  Looks up a localized string similar to File successo scaricato e fusa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsMergin">
+	<summary>
+  Looks up a localized string similar to Unire le parti scaricate - attendere prego ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsPaused">
+	<summary>
+  Looks up a localized string similar to In pausa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsPausing">
+	<summary>
+  Looks up a localized string similar to Mettere in pausa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsStarting">
+	<summary>
+  Looks up a localized string similar to scaricare partire.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.TabPage1">
+	<summary>
+  Looks up a localized string similar to Downloads.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.TabPage2">
+	<summary>
+  Looks up a localized string similar to Logs.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem10">
+	<summary>
+  Looks up a localized string similar to Scarica nuovamente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem12">
+	<summary>
+  Looks up a localized string similar to Tutto in Pausa.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem13">
+	<summary>
+  Looks up a localized string similar to Interrompi Tutto.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem3">
+	<summary>
+  Looks up a localized string similar to Compito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem4">
+	<summary>
+  Looks up a localized string similar to Download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem5">
+	<summary>
+  Looks up a localized string similar to Aggiungi nuovo link.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem6">
+	<summary>
+  Looks up a localized string similar to Esci.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem7">
+	<summary>
+  Looks up a localized string similar to Ferma download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ToolStripMenuItem8">
+	<summary>
+  Looks up a localized string similar to Rimuovi.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPbtncancel">
+	<summary>
+  Looks up a localized string similar to Cancella.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPbtnok">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPEfrmuserpass">
+	<summary>
+  Looks up a localized string similar to Entra nel sito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPELabel1">
+	<summary>
+  Looks up a localized string similar to Server/Percorso.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPELabel2">
+	<summary>
+  Looks up a localized string similar to Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPELabel3">
+	<summary>
+  Looks up a localized string similar to Nome utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPELabel4">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPfrmuserpass">
+	<summary>
+  Looks up a localized string similar to Entra nel sito.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPLabel1">
+	<summary>
+  Looks up a localized string similar to Server/Percorso.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPLabel2">
+	<summary>
+  Looks up a localized string similar to Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPLabel3">
+	<summary>
+  Looks up a localized string similar to Nome utente.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.UPLabel4">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ViewToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Visualizza.
+</summary>
+</member><member name="T:SD_Download_Manager.My.Resources.IT">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
@@ -1604,10 +2794,6 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Download status.
 </summary>
-</member><member name="P:SD_Download_Manager.My.Resources.EN.EnglishToolStripMenuItem">
-	<summary>
-  Looks up a localized string similar to English.
-</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ExitToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to Exit.
@@ -1788,6 +2974,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Grab download link from clipboard.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.OPCheckOldIcons">
+	<summary>
+  Looks up a localized string similar to Use old icons.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.OPcheckshownotification">
 	<summary>
   Looks up a localized string similar to Show desktop notification when download Completed.
@@ -1940,10 +3130,6 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Options.
 </summary>
-</member><member name="P:SD_Download_Manager.My.Resources.EN.PersianToolStripMenuItem">
-	<summary>
-  Looks up a localized string similar to Persian.
-</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.PRbtnclose">
 	<summary>
   Looks up a localized string similar to Close.
@@ -2006,7 +3192,7 @@ SD_Download_Manager
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.PropertiseToolStripMenuItem">
 	<summary>
-  Looks up a localized string similar to Propertise.
+  Looks up a localized string similar to properties.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.RedownloadToolStripMenuItem">
 	<summary>
@@ -2203,6 +3389,62 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.StopDownloadToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to Stop download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsCanceled">
+	<summary>
+  Looks up a localized string similar to Canceled.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsCanceling">
+	<summary>
+  Looks up a localized string similar to Canceling.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsCompleted">
+	<summary>
+  Looks up a localized string similar to Completed.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsConnecting">
+	<summary>
+  Looks up a localized string similar to Connecting ....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsDLfaild">
+	<summary>
+  Looks up a localized string similar to Download faild.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsDLfaild_Tryingagain">
+	<summary>
+  Looks up a localized string similar to Download faild - Trying again to download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsDLresetted">
+	<summary>
+  Looks up a localized string similar to Download resetted.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsDLresetting">
+	<summary>
+  Looks up a localized string similar to Resetting download....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsDownloading">
+	<summary>
+  Looks up a localized string similar to Downloading.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsMerged">
+	<summary>
+  Looks up a localized string similar to File succesfully downloaded and merged.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsMergin">
+	<summary>
+  Looks up a localized string similar to Merging downloaded parts - Please wait....
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsPaused">
+	<summary>
+  Looks up a localized string similar to Paused.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsPausing">
+	<summary>
+  Looks up a localized string similar to Pausing.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsStarting">
+	<summary>
+  Looks up a localized string similar to Starting download.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.TabPage1">
 	<summary>

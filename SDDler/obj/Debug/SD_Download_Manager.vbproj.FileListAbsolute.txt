@@ -171,3 +171,5 @@ C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_
 C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.exe
 C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.xml
 C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.pdb
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.IT.resources
+C:\Users\Sajjad Tanha\Desktop\SDDler\SDDler\SDDler\SDDler\obj\Debug\SD_Download_Manager.frmCredits.resources

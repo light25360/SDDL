@@ -25,7 +25,7 @@ Namespace My.Resources
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>  _
-    Friend Class FA
+    Friend Class IT
         
         Private Shared resourceMan As Global.System.Resources.ResourceManager
         
@@ -43,7 +43,7 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("SD_Download_Manager.FA", GetType(FA).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("SD_Download_Manager.IT", GetType(IT).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -65,7 +65,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to درباره.
+        '''  Looks up a localized string similar to Circa.
         '''</summary>
         Friend Shared ReadOnly Property AboutToolStripMenuItem() As String
             Get
@@ -74,7 +74,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to درباره.
+        '''  Looks up a localized string similar to Circa.
         '''</summary>
         Friend Shared ReadOnly Property AboutToolStripMenuItem1() As String
             Get
@@ -83,7 +83,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باشه.
+        '''  Looks up a localized string similar to OK.
         '''</summary>
         Friend Shared ReadOnly Property ADButton1() As String
             Get
@@ -92,7 +92,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انصراف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property ADButton2() As String
             Get
@@ -101,7 +101,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعدا دانلود کن.
+        '''  Looks up a localized string similar to Scarica in seguito.
         '''</summary>
         Friend Shared ReadOnly Property ADchdlnow() As String
             Get
@@ -110,7 +110,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to استفاده از مسیر پیشفرض.
+        '''  Looks up a localized string similar to Usa percorso di default.
         '''</summary>
         Friend Shared ReadOnly Property ADchdpath() As String
             Get
@@ -119,7 +119,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to استفاده از حساب کاربری.
+        '''  Looks up a localized string similar to Usa autorizzazione.
         '''</summary>
         Friend Shared ReadOnly Property ADCheckBox1() As String
             Get
@@ -128,7 +128,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اضافه کردن لینک.
+        '''  Looks up a localized string similar to Aggiungi link.
         '''</summary>
         Friend Shared ReadOnly Property Addlink() As String
             Get
@@ -137,7 +137,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اضافه کردن لینک جدید.
+        '''  Looks up a localized string similar to Aggiungi URL.
         '''</summary>
         Friend Shared ReadOnly Property AddLinkToolStripMenuItem() As String
             Get
@@ -146,7 +146,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to آدرس :.
+        '''  Looks up a localized string similar to Indirizzo :.
         '''</summary>
         Friend Shared ReadOnly Property ADLabel1() As String
             Get
@@ -155,7 +155,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری :.
+        '''  Looks up a localized string similar to Nome Utente :.
         '''</summary>
         Friend Shared ReadOnly Property ADLabel2() As String
             Get
@@ -164,7 +164,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور :.
+        '''  Looks up a localized string similar to Password :.
         '''</summary>
         Friend Shared ReadOnly Property ADLabel3() As String
             Get
@@ -173,16 +173,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to -.
-        '''</summary>
-        Friend Shared ReadOnly Property ADLabel5() As String
-            Get
-                Return ResourceManager.GetString("ADLabel5", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized string similar to توضیحات :.
+        '''  Looks up a localized string similar to Descrizione :.
         '''</summary>
         Friend Shared ReadOnly Property ADLabel6() As String
             Get
@@ -191,7 +182,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام فایل :.
+        '''  Looks up a localized string similar to Nome file :.
         '''</summary>
         Friend Shared ReadOnly Property ADLabel7() As String
             Get
@@ -200,7 +191,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توضیحات.
+        '''  Looks up a localized string similar to Descrizione.
         '''</summary>
         Friend Shared ReadOnly Property ADlbldescription() As String
             Get
@@ -209,7 +200,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to مرتب کردن فایل ها.
+        '''  Looks up a localized string similar to Organizza i files.
         '''</summary>
         Friend Shared ReadOnly Property ArrangeFilesToolStripMenuItem() As String
             Get
@@ -218,7 +209,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس نام.
+        '''  Looks up a localized string similar to Per Nome File.
         '''</summary>
         Friend Shared ReadOnly Property ByFileNameToolStripMenuItem() As String
             Get
@@ -227,7 +218,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس شماره.
+        '''  Looks up a localized string similar to Per ID.
         '''</summary>
         Friend Shared ReadOnly Property ByIDToolStripMenuItem() As String
             Get
@@ -236,7 +227,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس آخرین تاریخ دانلود.
+        '''  Looks up a localized string similar to Per Data Ultimo Tentativo.
         '''</summary>
         Friend Shared ReadOnly Property ByLastTryDateToolStripMenuItem() As String
             Get
@@ -245,7 +236,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس زمان باقیمانده.
+        '''  Looks up a localized string similar to Per Tempo Rimanente.
         '''</summary>
         Friend Shared ReadOnly Property ByLeftTimeToolStripMenuItem() As String
             Get
@@ -254,7 +245,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس حجم.
+        '''  Looks up a localized string similar to Per Dimensione.
         '''</summary>
         Friend Shared ReadOnly Property BySizeToolStripMenuItem() As String
             Get
@@ -263,7 +254,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس وضعیت دانلود.
+        '''  Looks up a localized string similar to Per Stato.
         '''</summary>
         Friend Shared ReadOnly Property ByStatusToolStripMenuItem() As String
             Get
@@ -272,7 +263,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بر اساس سرعت.
+        '''  Looks up a localized string similar to Per Velocità.
         '''</summary>
         Friend Shared ReadOnly Property ByToolStripMenuItem() As String
             Get
@@ -281,7 +272,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to استفاده از پروکسی سیستم.
+        '''  Looks up a localized string similar to Usa proxy di sistema.
         '''</summary>
         Friend Shared ReadOnly Property checkuseproxy() As String
             Get
@@ -290,7 +281,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان آخرین تلاش.
+        '''  Looks up a localized string similar to Data ultimo tentativo.
         '''</summary>
         Friend Shared ReadOnly Property CLdate() As String
             Get
@@ -299,7 +290,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توضیحات.
+        '''  Looks up a localized string similar to Descrizione.
         '''</summary>
         Friend Shared ReadOnly Property CLDescription() As String
             Get
@@ -308,7 +299,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لینک.
+        '''  Looks up a localized string similar to Link.
         '''</summary>
         Friend Shared ReadOnly Property CLink() As String
             Get
@@ -317,7 +308,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام.
+        '''  Looks up a localized string similar to Nome.
         '''</summary>
         Friend Shared ReadOnly Property CLname() As String
             Get
@@ -326,7 +317,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to شماره.
+        '''  Looks up a localized string similar to ID.
         '''</summary>
         Friend Shared ReadOnly Property CLnomber() As String
             Get
@@ -335,7 +326,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور.
+        '''  Looks up a localized string similar to Password.
         '''</summary>
         Friend Shared ReadOnly Property CLpassword() As String
             Get
@@ -344,7 +335,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایز.
+        '''  Looks up a localized string similar to Dimensione.
         '''</summary>
         Friend Shared ReadOnly Property CLsize() As String
             Get
@@ -353,7 +344,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سرعت.
+        '''  Looks up a localized string similar to Velocità.
         '''</summary>
         Friend Shared ReadOnly Property CLspeed() As String
             Get
@@ -362,7 +353,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت.
+        '''  Looks up a localized string similar to Stato.
         '''</summary>
         Friend Shared ReadOnly Property CLstatus() As String
             Get
@@ -371,7 +362,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان باقیمانده.
+        '''  Looks up a localized string similar to Tempo rimanente.
         '''</summary>
         Friend Shared ReadOnly Property CLtime() As String
             Get
@@ -380,7 +371,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری.
+        '''  Looks up a localized string similar to Nome utente.
         '''</summary>
         Friend Shared ReadOnly Property CLusername() As String
             Get
@@ -389,7 +380,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نه خیر.
+        '''  Looks up a localized string similar to No.
         '''</summary>
         Friend Shared ReadOnly Property DELbtnno() As String
             Get
@@ -398,7 +389,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بله.
+        '''  Looks up a localized string similar to Sì.
         '''</summary>
         Friend Shared ReadOnly Property DELbtnyes() As String
             Get
@@ -407,7 +398,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to این پنجره را دیگر نشان نده.
+        '''  Looks up a localized string similar to Non mostrare più questa finestra di dialogo.
         '''</summary>
         Friend Shared ReadOnly Property DELcheckdontshow() As String
             Get
@@ -416,7 +407,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف تکمیلها.
+        '''  Looks up a localized string similar to Cancellazione completata.
         '''</summary>
         Friend Shared ReadOnly Property DeleteAllcompletedToolStripMenuItem() As String
             Get
@@ -425,7 +416,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to آیا از پاک کردن این فایل  مطمئن هستید ؟.
+        '''  Looks up a localized string similar to Sei sicuro di voler cancellare questo/i file?.
         '''</summary>
         Friend Shared ReadOnly Property DELLabel1() As String
             Get
@@ -434,7 +425,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to درخواست پاک کردن.
+        '''  Looks up a localized string similar to Cancella richiesta.
         '''</summary>
         Friend Shared ReadOnly Property DELmsgdelete() As String
             Get
@@ -443,7 +434,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ایست.
+        '''  Looks up a localized string similar to Pausa.
         '''</summary>
         Friend Shared ReadOnly Property DLbtnpause() As String
             Get
@@ -452,7 +443,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ادامه.
+        '''  Looks up a localized string similar to Riprendi.
         '''</summary>
         Friend Shared ReadOnly Property DLbtnresume() As String
             Get
@@ -461,7 +452,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property DLbtnstop() As String
             Get
@@ -470,7 +461,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to &lt;&lt; پنهان کردن جزئیات.
+        '''  Looks up a localized string similar to &lt;&lt; Nascondi dettagli.
         '''</summary>
         Friend Shared ReadOnly Property DLclosetext() As String
             Get
@@ -479,7 +470,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعد از اتمام دانلودها , برنامه را ببند.
+        '''  Looks up a localized string similar to Esci da SD download manager quando è completato.
         '''</summary>
         Friend Shared ReadOnly Property DLexitchek() As String
             Get
@@ -488,7 +479,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to برنامه های درحال اجرا را مجبور به بستن کن.
+        '''  Looks up a localized string similar to Forza l&apos;interruzione dei processi.
         '''</summary>
         Friend Shared ReadOnly Property DLforceturnoffcheck() As String
             Get
@@ -497,7 +488,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود شده .
+        '''  Looks up a localized string similar to Scaricati.
         '''</summary>
         Friend Shared ReadOnly Property DLl1() As String
             Get
@@ -506,7 +497,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت .
+        '''  Looks up a localized string similar to Stato.
         '''</summary>
         Friend Shared ReadOnly Property DLl2() As String
             Get
@@ -515,7 +506,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایز فایل.
+        '''  Looks up a localized string similar to Dimensione File.
         '''</summary>
         Friend Shared ReadOnly Property DLl3() As String
             Get
@@ -524,7 +515,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سرعت .
+        '''  Looks up a localized string similar to Velocità.
         '''</summary>
         Friend Shared ReadOnly Property DLl4() As String
             Get
@@ -533,7 +524,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان باقیمانده .
+        '''  Looks up a localized string similar to Tempo rimanente.
         '''</summary>
         Friend Shared ReadOnly Property DLl5() As String
             Get
@@ -542,7 +533,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نوع فایل .
+        '''  Looks up a localized string similar to Tipo di file.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel10() As String
             Get
@@ -551,7 +542,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to قابلیت ادامه.
+        '''  Looks up a localized string similar to Possibilità di riprendere.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel14() As String
             Get
@@ -560,7 +551,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان سپری شده.
+        '''  Looks up a localized string similar to Tempo trascorso.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel15() As String
             Get
@@ -569,7 +560,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to کل بخش ها.
+        '''  Looks up a localized string similar to Segmenti totali.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel16() As String
             Get
@@ -578,7 +569,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بخش جاری.
+        '''  Looks up a localized string similar to Segmento attuale.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel17() As String
             Get
@@ -587,7 +578,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ذخیره در .
+        '''  Looks up a localized string similar to Salva in.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel7() As String
             Get
@@ -596,7 +587,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظمات زیر هنگامی که گزینه &quot;نشان دادن پنجره اتمام دانلود &quot;فعال می باشد , نمایش داده نمی شوند.
+        '''  Looks up a localized string similar to Queste impostazioni non sono disponibili quando è attiva l&apos;opzione &quot;Mostra la finestra dei download completati&quot;.
         '''</summary>
         Friend Shared ReadOnly Property DLLabel9() As String
             Get
@@ -605,7 +596,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود شده.
+        '''  Looks up a localized string similar to Scaricati.
         '''</summary>
         Friend Shared ReadOnly Property DLList1Downloaded() As String
             Get
@@ -614,7 +605,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to شناسه.
+        '''  Looks up a localized string similar to ID.
         '''</summary>
         Friend Shared ReadOnly Property DLList1ID() As String
             Get
@@ -623,7 +614,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت.
+        '''  Looks up a localized string similar to Stato.
         '''</summary>
         Friend Shared ReadOnly Property DLList1sts() As String
             Get
@@ -632,7 +623,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نمایش جزئیات &gt;&gt;.
+        '''  Looks up a localized string similar to Mostra dettagli &gt;&gt;.
         '''</summary>
         Friend Shared ReadOnly Property DLopentext() As String
             Get
@@ -641,7 +632,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to گزینه های اتمام دانلود.
+        '''  Looks up a localized string similar to Opzione al termine.
         '''</summary>
         Friend Shared ReadOnly Property DLoptiontab() As String
             Get
@@ -650,7 +641,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعد از اتمام دانلودها , کامپیوتر را خاموش کن.
+        '''  Looks up a localized string similar to Spengi il computer quando è completato.
         '''</summary>
         Friend Shared ReadOnly Property DLpcturnoffchek() As String
             Get
@@ -659,7 +650,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نشان داده پنجره اتمام دانلود.
+        '''  Looks up a localized string similar to Mostra la finestra dei download completati.
         '''</summary>
         Friend Shared ReadOnly Property DLshowdialogchk() As String
             Get
@@ -668,7 +659,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت دانلود.
+        '''  Looks up a localized string similar to Stato del download.
         '''</summary>
         Friend Shared ReadOnly Property DLstatustab() As String
             Get
@@ -677,7 +668,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to خروج.
+        '''  Looks up a localized string similar to Esci.
         '''</summary>
         Friend Shared ReadOnly Property ExitToolStripMenuItem() As String
             Get
@@ -686,7 +677,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بستن.
+        '''  Looks up a localized string similar to Chiudi.
         '''</summary>
         Friend Shared ReadOnly Property FDbtnclose() As String
             Get
@@ -695,7 +686,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ارسال.
+        '''  Looks up a localized string similar to Invia.
         '''</summary>
         Friend Shared ReadOnly Property FDbtnersal() As String
             Get
@@ -704,7 +695,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وبلاگ.
+        '''  Looks up a localized string similar to Weblog.
         '''</summary>
         Friend Shared ReadOnly Property FDbtnweb() As String
             Get
@@ -713,7 +704,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لطفا نام و آدرس پست الکترونیک خود را وارد نمایید.
+        '''  Looks up a localized string similar to Per favore inserisci il tuo nome e l&apos;indirizzo email.
         '''</summary>
         Friend Shared ReadOnly Property FDGroupBox1() As String
             Get
@@ -722,7 +713,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لطفا نظرات ، پیشنهادات و اشکالات نرم افزار را در پایین نوشته و سپس بر روی دکمه &quot;ارسال&quot; کلیک نمایید.
+        '''  Looks up a localized string similar to Per favore inviaci dei commenti, suggerimenti o segnala dei bugs nel programma e clicca sul bottone &quot;Invia&quot;.
         '''</summary>
         Friend Shared ReadOnly Property FDGroupBox2() As String
             Get
@@ -731,7 +722,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to پست الکترونیک .
+        '''  Looks up a localized string similar to E-Mail .
         '''</summary>
         Friend Shared ReadOnly Property FDlblmail() As String
             Get
@@ -740,7 +731,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام .
+        '''  Looks up a localized string similar to Nome.
         '''</summary>
         Friend Shared ReadOnly Property FDlblname() As String
             Get
@@ -749,7 +740,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to موضوع .
+        '''  Looks up a localized string similar to Soggetto.
         '''</summary>
         Friend Shared ReadOnly Property FDlblsubject() As String
             Get
@@ -758,7 +749,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باز خورد.
+        '''  Looks up a localized string similar to Feedback.
         '''</summary>
         Friend Shared ReadOnly Property FeedbackToolStripMenuItem() As String
             Get
@@ -767,7 +758,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to فایل.
+        '''  Looks up a localized string similar to File.
         '''</summary>
         Friend Shared ReadOnly Property FilesToolStripMenuItem() As String
             Get
@@ -776,7 +767,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to کمک.
+        '''  Looks up a localized string similar to Aiuto.
         '''</summary>
         Friend Shared ReadOnly Property HelpToolStripMenuItem() As String
             Get
@@ -785,7 +776,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to آیکون ها.
+        '''  Looks up a localized string similar to Icone.
         '''</summary>
         Friend Shared ReadOnly Property IconsToolStripMenuItem() As String
             Get
@@ -794,7 +785,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازخورد.
+        '''  Looks up a localized string similar to Feedback.
         '''</summary>
         Friend Shared ReadOnly Property Label10() As String
             Get
@@ -803,7 +794,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سبد پرتاب.
+        '''  Looks up a localized string similar to Target di rilascio.
         '''</summary>
         Friend Shared ReadOnly Property Label11() As String
             Get
@@ -812,7 +803,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اضافه کردن لینک.
+        '''  Looks up a localized string similar to Aggiungi link.
         '''</summary>
         Friend Shared ReadOnly Property Label2() As String
             Get
@@ -821,7 +812,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ادامه.
+        '''  Looks up a localized string similar to Riprendi.
         '''</summary>
         Friend Shared ReadOnly Property Label3() As String
             Get
@@ -830,7 +821,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف.
+        '''  Looks up a localized string similar to Interrompi.
         '''</summary>
         Friend Shared ReadOnly Property Label4() As String
             Get
@@ -839,7 +830,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف همه.
+        '''  Looks up a localized string similar to Interrompi Tutto.
         '''</summary>
         Friend Shared ReadOnly Property Label5() As String
             Get
@@ -848,7 +839,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان بندی.
+        '''  Looks up a localized string similar to Scheduler.
         '''</summary>
         Friend Shared ReadOnly Property Label6() As String
             Get
@@ -857,7 +848,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property Label7() As String
             Get
@@ -866,7 +857,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف تکمیلها.
+        '''  Looks up a localized string similar to Cancellazione completata.
         '''</summary>
         Friend Shared ReadOnly Property Label8() As String
             Get
@@ -875,7 +866,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات.
+        '''  Looks up a localized string similar to Opzioni.
         '''</summary>
         Friend Shared ReadOnly Property Label9() As String
             Get
@@ -884,7 +875,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زبان.
+        '''  Looks up a localized string similar to Lingua.
         '''</summary>
         Friend Shared ReadOnly Property LanguageToolStripMenuItem() As String
             Get
@@ -893,7 +884,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ذخیره در.
+        '''  Looks up a localized string similar to Salva in.
         '''</summary>
         Friend Shared ReadOnly Property Llocation() As String
             Get
@@ -902,7 +893,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to عادی.
+        '''  Looks up a localized string similar to Normale.
         '''</summary>
         Friend Shared ReadOnly Property NormalToolStripMenuItem() As String
             Get
@@ -911,7 +902,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انصراف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property OPbtncancel() As String
             Get
@@ -920,7 +911,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to چک کردن برای ورژن جدید.
+        '''  Looks up a localized string similar to Controlla aggiornamenti.
         '''</summary>
         Friend Shared ReadOnly Property OPbtncheckfornewversion() As String
             Get
@@ -929,7 +920,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ویرایش.
+        '''  Looks up a localized string similar to Modifica.
         '''</summary>
         Friend Shared ReadOnly Property OPbtnedit() As String
             Get
@@ -938,7 +929,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to جدید.
+        '''  Looks up a localized string similar to Nuovo.
         '''</summary>
         Friend Shared ReadOnly Property OPbtnnew() As String
             Get
@@ -947,7 +938,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باشه.
+        '''  Looks up a localized string similar to OK.
         '''</summary>
         Friend Shared ReadOnly Property OPbtnok() As String
             Get
@@ -956,7 +947,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف.
+        '''  Looks up a localized string similar to Rimuovi.
         '''</summary>
         Friend Shared ReadOnly Property OPbtnremove() As String
             Get
@@ -965,7 +956,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اضافه.
+        '''  Looks up a localized string similar to Aggiungi.
         '''</summary>
         Friend Shared ReadOnly Property opButton1() As String
             Get
@@ -974,7 +965,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to پیش فرض.
+        '''  Looks up a localized string similar to Default.
         '''</summary>
         Friend Shared ReadOnly Property opButton2() As String
             Get
@@ -983,7 +974,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف.
+        '''  Looks up a localized string similar to Rimuovi.
         '''</summary>
         Friend Shared ReadOnly Property opButton3() As String
             Get
@@ -992,7 +983,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انتخاب فونت.
+        '''  Looks up a localized string similar to Seleziona font.
         '''</summary>
         Friend Shared ReadOnly Property OPButton4() As String
             Get
@@ -1001,7 +992,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انتخاب رنگ نوشته ها.
+        '''  Looks up a localized string similar to Seleziona i colori del testo.
         '''</summary>
         Friend Shared ReadOnly Property OPButton5() As String
             Get
@@ -1010,7 +1001,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انتخاب رنگ پس زمینه فرم ها.
+        '''  Looks up a localized string similar to Seleziona il colore di background.
         '''</summary>
         Friend Shared ReadOnly Property OPButton6() As String
             Get
@@ -1019,7 +1010,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازیابی پیش فرض.
+        '''  Looks up a localized string similar to Ripristino di default.
         '''</summary>
         Friend Shared ReadOnly Property OPButton7() As String
             Get
@@ -1028,7 +1019,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to چک کردن برای آپدیت ها به صورت اتوماتیک.
+        '''  Looks up a localized string similar to Controlla automaticamente gli aggiornamenti.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckautoupdate() As String
             Get
@@ -1037,7 +1028,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود ناموفق.
+        '''  Looks up a localized string similar to Download non riuscito.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckcancelled() As String
             Get
@@ -1046,7 +1037,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود پایان یافت.
+        '''  Looks up a localized string similar to Download completato.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckcompleted() As String
             Get
@@ -1055,7 +1046,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to استفاده از مسیر پیشفرض برای دانلودها.
+        '''  Looks up a localized string similar to Usa percorso di default per i downloads.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckdefaultpath() As String
             Get
@@ -1064,7 +1055,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to پنجره درخواست پاک کردن را نمایش نده.
+        '''  Looks up a localized string similar to Non mostrare la finestra di eliminazione quando si cancellano files dalla lista.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckdontshoedelete() As String
             Get
@@ -1073,7 +1064,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لینکهای موجود در حافظه(کلیپ برد ویندوز) را به صورت اتوماتیک دانلود کن.
+        '''  Looks up a localized string similar to Prendi il link del download dagli appunti.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckgrabfromclipboard() As String
             Get
@@ -1082,7 +1073,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to استفاده از آیکون های قدیمی.
+        '''  Looks up a localized string similar to Utilizzare vecchie icone.
         '''</summary>
         Friend Shared ReadOnly Property OPCheckOldIcons() As String
             Get
@@ -1091,7 +1082,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نشان دادن اطلاع رسانی ویندوز در هنگام اتمام دانلود.
+        '''  Looks up a localized string similar to Mostra una notifica sul desktop quando il download è Completato.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckshownotification() As String
             Get
@@ -1100,7 +1091,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to SD Download Manager را در هنگام بالا آمدن ویندوز اجرا کن.
+        '''  Looks up a localized string similar to Avvia SD Download Manager all&apos;avvio di windows.
         '''</summary>
         Friend Shared ReadOnly Property OPcheckstartup() As String
             Get
@@ -1109,7 +1100,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود فایل های با پسوندهای زیر را فقط به صورت خودکار شروع کن.
+        '''  Looks up a localized string similar to Avvia automaticamente il download solo per questo tipo di file.
         '''</summary>
         Friend Shared ReadOnly Property opcheckusefiletype() As String
             Get
@@ -1118,7 +1109,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور.
+        '''  Looks up a localized string similar to Password.
         '''</summary>
         Friend Shared ReadOnly Property OPCpass() As String
             Get
@@ -1127,7 +1118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایت/مسیر.
+        '''  Looks up a localized string similar to Sito/Percorso.
         '''</summary>
         Friend Shared ReadOnly Property OPCsite() As String
             Get
@@ -1136,7 +1127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری.
+        '''  Looks up a localized string similar to Utente.
         '''</summary>
         Friend Shared ReadOnly Property OPCuser() As String
             Get
@@ -1145,7 +1136,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن با.
+        '''  Looks up a localized string similar to Apri con.
         '''</summary>
         Friend Shared ReadOnly Property OPEbtnopenwith() As String
             Get
@@ -1154,7 +1145,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن/اجرا.
+        '''  Looks up a localized string similar to Apri.
         '''</summary>
         Friend Shared ReadOnly Property OPEButton1() As String
             Get
@@ -1163,7 +1154,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن پوشه.
+        '''  Looks up a localized string similar to Apri cartella.
         '''</summary>
         Friend Shared ReadOnly Property OPEButton3() As String
             Get
@@ -1172,7 +1163,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بستن.
+        '''  Looks up a localized string similar to Chiudi.
         '''</summary>
         Friend Shared ReadOnly Property OPEButton4() As String
             Get
@@ -1181,7 +1172,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود پایان یافت.
+        '''  Looks up a localized string similar to Download completato.
         '''</summary>
         Friend Shared ReadOnly Property OPELabel1() As String
             Get
@@ -1190,7 +1181,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to آدرس.
+        '''  Looks up a localized string similar to Indirizzo.
         '''</summary>
         Friend Shared ReadOnly Property OPELabel2() As String
             Get
@@ -1199,7 +1190,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ذخیره شده در.
+        '''  Looks up a localized string similar to Il file salvato come.
         '''</summary>
         Friend Shared ReadOnly Property OPELabel3() As String
             Get
@@ -1208,7 +1199,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود شده.
+        '''  Looks up a localized string similar to Scaricati.
         '''</summary>
         Friend Shared ReadOnly Property OPELabel5() As String
             Get
@@ -1217,7 +1208,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن پوشه.
+        '''  Looks up a localized string similar to Apri cartella.
         '''</summary>
         Friend Shared ReadOnly Property OpenFolderToolStripMenuItem() As String
             Get
@@ -1226,7 +1217,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن برنامه.
+        '''  Looks up a localized string similar to Apri app.
         '''</summary>
         Friend Shared ReadOnly Property OpenSDMToolStripMenuItem() As String
             Get
@@ -1235,7 +1226,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن.
+        '''  Looks up a localized string similar to Apri.
         '''</summary>
         Friend Shared ReadOnly Property OpenToolStripMenuItem() As String
             Get
@@ -1244,7 +1235,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بازکردن با....
+        '''  Looks up a localized string similar to Apri con....
         '''</summary>
         Friend Shared ReadOnly Property OpenWithToolStripMenuItem() As String
             Get
@@ -1253,7 +1244,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات.
+        '''  Looks up a localized string similar to Opzione.
         '''</summary>
         Friend Shared ReadOnly Property OPfrmoption() As String
             Get
@@ -1262,7 +1253,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات اصلی.
+        '''  Looks up a localized string similar to Impostazioni Generali.
         '''</summary>
         Friend Shared ReadOnly Property OPGroupBox1() As String
             Get
@@ -1271,7 +1262,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to صدا و رویداد را انتخاب کنید.
+        '''  Looks up a localized string similar to Seleziona suoni ed eventi.
         '''</summary>
         Friend Shared ReadOnly Property OPGroupBox2() As String
             Get
@@ -1280,7 +1271,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انتخاب فونت و تنظیمات دیگر برای رابط کاربری.
+        '''  Looks up a localized string similar to Seleziona font e altre impostazioni dell&apos;Interfaccia Utente.
         '''</summary>
         Friend Shared ReadOnly Property OPGroupBox4() As String
             Get
@@ -1289,7 +1280,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات اصلی.
+        '''  Looks up a localized string similar to Impostazione Generale.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel1() As String
             Get
@@ -1298,7 +1289,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات رابط کاربری.
+        '''  Looks up a localized string similar to Impostazione dell&apos;interfaccia utente.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel11() As String
             Get
@@ -1307,7 +1298,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اگر تعداد کانکشن ها را تغییر دهید، تمامی دانلودها از اول دانلود خواهند شد.
+        '''  Looks up a localized string similar to Se cambi il numero delle connessioni tutti i downloads ricominceranno dall&apos;inizio.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel12() As String
             Get
@@ -1316,7 +1307,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to مدت ریسِت اتوماتیک دانلود.
+        '''  Looks up a localized string similar to Resetta automaticamente la durata del download.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel13() As String
             Get
@@ -1325,7 +1316,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ثانیه.
+        '''  Looks up a localized string similar to Secondo.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel14() As String
             Get
@@ -1334,7 +1325,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات صدا.
+        '''  Looks up a localized string similar to Impostazioni Audio.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel3() As String
             Get
@@ -1343,7 +1334,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری و رمز عبور برای سرورها/سایت ها.
+        '''  Looks up a localized string similar to Nomi utente e passwords per server/siti.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel5() As String
             Get
@@ -1352,7 +1343,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نوع فایل های دانلود شده.
+        '''  Looks up a localized string similar to Tipi di file scaricati.
         '''</summary>
         Friend Shared ReadOnly Property opLabel8() As String
             Get
@@ -1361,7 +1352,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تعداد ارتباطات.
+        '''  Looks up a localized string similar to Numero di connessioni.
         '''</summary>
         Friend Shared ReadOnly Property OPLabel9() As String
             Get
@@ -1370,7 +1361,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to درحال چک کردن , لطفا صبور باشید ....
+        '''  Looks up a localized string similar to Verifica in corso, Per favore aspetta ....
         '''</summary>
         Friend Shared ReadOnly Property OPlblcheck() As String
             Get
@@ -1379,7 +1370,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to صدا.
+        '''  Looks up a localized string similar to Audio.
         '''</summary>
         Friend Shared ReadOnly Property OPTabPage1() As String
             Get
@@ -1388,7 +1379,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اصلی.
+        '''  Looks up a localized string similar to Generale.
         '''</summary>
         Friend Shared ReadOnly Property OPTabPage2() As String
             Get
@@ -1397,7 +1388,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایت های پسورد دار.
+        '''  Looks up a localized string similar to Login siti.
         '''</summary>
         Friend Shared ReadOnly Property OPTabPage3() As String
             Get
@@ -1406,7 +1397,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نوع فایل ها.
+        '''  Looks up a localized string similar to Tipi di file.
         '''</summary>
         Friend Shared ReadOnly Property opTabPage4() As String
             Get
@@ -1415,7 +1406,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رابط کاربری.
+        '''  Looks up a localized string similar to Interfaccia utente.
         '''</summary>
         Friend Shared ReadOnly Property OPTabPage5() As String
             Get
@@ -1424,7 +1415,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تنظیمات.
+        '''  Looks up a localized string similar to Opzioni.
         '''</summary>
         Friend Shared ReadOnly Property OptionToolStripMenuItem() As String
             Get
@@ -1433,7 +1424,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بستن.
+        '''  Looks up a localized string similar to Chiudi.
         '''</summary>
         Friend Shared ReadOnly Property PRbtnclose() As String
             Get
@@ -1442,7 +1433,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باز کردن.
+        '''  Looks up a localized string similar to Apri.
         '''</summary>
         Friend Shared ReadOnly Property PRbtnopen() As String
             Get
@@ -1451,7 +1442,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باز کن.
+        '''  Looks up a localized string similar to Apri.
         '''</summary>
         Friend Shared ReadOnly Property PRbtnopenlink() As String
             Get
@@ -1460,7 +1451,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to مشخصات فایل.
+        '''  Looks up a localized string similar to Proprietà File.
         '''</summary>
         Friend Shared ReadOnly Property PRfrmpropertise() As String
             Get
@@ -1469,7 +1460,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نوع :.
+        '''  Looks up a localized string similar to Tipo :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel1() As String
             Get
@@ -1478,7 +1469,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نتیجه :.
+        '''  Looks up a localized string similar to Risultato :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel10() As String
             Get
@@ -1487,7 +1478,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ارجاع دهنده :.
+        '''  Looks up a localized string similar to Referer :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel14() As String
             Get
@@ -1496,7 +1487,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت :.
+        '''  Looks up a localized string similar to Stato :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel2() As String
             Get
@@ -1505,7 +1496,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایز :.
+        '''  Looks up a localized string similar to Dimensione :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel3() As String
             Get
@@ -1514,7 +1505,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ذخیره در :.
+        '''  Looks up a localized string similar to Salva in :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel4() As String
             Get
@@ -1523,7 +1514,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to آدرس :.
+        '''  Looks up a localized string similar to Indirizzo :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel5() As String
             Get
@@ -1532,7 +1523,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توضیحات :.
+        '''  Looks up a localized string similar to Descrizione :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel6() As String
             Get
@@ -1541,7 +1532,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری :.
+        '''  Looks up a localized string similar to Entra :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel7() As String
             Get
@@ -1550,7 +1541,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور :.
+        '''  Looks up a localized string similar to Password :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel8() As String
             Get
@@ -1559,7 +1550,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان آخرین تلاش :.
+        '''  Looks up a localized string similar to Data ultimo tentativo :.
         '''</summary>
         Friend Shared ReadOnly Property PRLabel9() As String
             Get
@@ -1568,7 +1559,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to مشخصات.
+        '''  Looks up a localized string similar to Proprietà.
         '''</summary>
         Friend Shared ReadOnly Property PropertiseToolStripMenuItem() As String
             Get
@@ -1577,7 +1568,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود مجدد.
+        '''  Looks up a localized string similar to Scarica nuovamente.
         '''</summary>
         Friend Shared ReadOnly Property RedownloadToolStripMenuItem() As String
             Get
@@ -1586,7 +1577,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property RemoveToolStripMenuItem() As String
             Get
@@ -1595,7 +1586,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ادامه دانلود.
+        '''  Looks up a localized string similar to Riprendi download.
         '''</summary>
         Friend Shared ReadOnly Property ResumeDownloadToolStripMenuItem() As String
             Get
@@ -1604,7 +1595,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اجرا.
+        '''  Looks up a localized string similar to Applica.
         '''</summary>
         Friend Shared ReadOnly Property SCbtnapply() As String
             Get
@@ -1613,7 +1604,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to پنهان .
+        '''  Looks up a localized string similar to Nascondi.
         '''</summary>
         Friend Shared ReadOnly Property SCbtnclose() As String
             Get
@@ -1622,7 +1613,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ببند.
+        '''  Looks up a localized string similar to Chiudi.
         '''</summary>
         Friend Shared ReadOnly Property SCbtnexit() As String
             Get
@@ -1631,7 +1622,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to شروع.
+        '''  Looks up a localized string similar to Inizia ora.
         '''</summary>
         Friend Shared ReadOnly Property SCbtnstart() As String
             Get
@@ -1640,7 +1631,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف.
+        '''  Looks up a localized string similar to Ferma.
         '''</summary>
         Friend Shared ReadOnly Property SCbtnstop() As String
             Get
@@ -1649,7 +1640,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توضیحات.
+        '''  Looks up a localized string similar to Descrizione.
         '''</summary>
         Friend Shared ReadOnly Property SCCdescriptionl() As String
             Get
@@ -1658,7 +1649,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعد از اتمام دانلودها برنامه را ببند.
+        '''  Looks up a localized string similar to Esci da SD Download Manager quando è completato.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckexit() As String
             Get
@@ -1667,7 +1658,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to جمعه.
+        '''  Looks up a localized string similar to Venerdì.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckfriday() As String
             Get
@@ -1676,7 +1667,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعد از اتمام دانلودها , اینترنت را قطع کن.
+        '''  Looks up a localized string similar to Resetta il modem quando è completato.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckhangmodem() As String
             Get
@@ -1685,7 +1676,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دوشنبه.
+        '''  Looks up a localized string similar to Lunedì.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckmonday() As String
             Get
@@ -1694,7 +1685,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to فایل زیر بعد از اتمام دانلود باز شود.
+        '''  Looks up a localized string similar to Apri il seguente file quando è pronto.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckopenfile() As String
             Get
@@ -1703,7 +1694,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تعداد دفعات سعی مجدد برای فایلهایی که با خطا مواجه میشوند :.
+        '''  Looks up a localized string similar to Numero di tentativi per ogni file se il download non riesce :.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckretrycount() As String
             Get
@@ -1712,7 +1703,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to شنبه.
+        '''  Looks up a localized string similar to Sabato.
         '''</summary>
         Friend Shared ReadOnly Property SCchecksaturday() As String
             Get
@@ -1721,7 +1712,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان شروع دانلود .
+        '''  Looks up a localized string similar to Avvia il download a.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckstarttime() As String
             Get
@@ -1730,7 +1721,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلودها همراه با شروع اجرای برنامه آغاز شوند.
+        '''  Looks up a localized string similar to Inizia il download all&apos;avvio di SD Download Manager.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckstartup() As String
             Get
@@ -1739,7 +1730,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to قطع دانلود در زمان.
+        '''  Looks up a localized string similar to Ferma il download a.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckstoptime() As String
             Get
@@ -1748,7 +1739,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to یکشنبه.
+        '''  Looks up a localized string similar to Domenica.
         '''</summary>
         Friend Shared ReadOnly Property SCchecksunday() As String
             Get
@@ -1757,7 +1748,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to پنج شنبه.
+        '''  Looks up a localized string similar to Giovedì.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckthursday() As String
             Get
@@ -1766,7 +1757,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سه شنبه.
+        '''  Looks up a localized string similar to Martedì.
         '''</summary>
         Friend Shared ReadOnly Property SCchecktuesday() As String
             Get
@@ -1775,7 +1766,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to بعد از اتمام دانلود , کامپیوتر را خاموش کن.
+        '''  Looks up a localized string similar to Spengi il computer quando è completato.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckturnoff() As String
             Get
@@ -1784,7 +1775,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to چهارشنبه.
+        '''  Looks up a localized string similar to Mercoledì.
         '''</summary>
         Friend Shared ReadOnly Property SCcheckwednesday() As String
             Get
@@ -1793,7 +1784,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to شماره.
+        '''  Looks up a localized string similar to ID.
         '''</summary>
         Friend Shared ReadOnly Property SCCidl() As String
             Get
@@ -1802,7 +1793,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان آخرین تلاش.
+        '''  Looks up a localized string similar to Data ultimo tentativo.
         '''</summary>
         Friend Shared ReadOnly Property SCClasttryl() As String
             Get
@@ -1811,7 +1802,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان باقیمانده.
+        '''  Looks up a localized string similar to Tempo rimanente.
         '''</summary>
         Friend Shared ReadOnly Property SCClefttimel() As String
             Get
@@ -1820,7 +1811,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لینک.
+        '''  Looks up a localized string similar to Link.
         '''</summary>
         Friend Shared ReadOnly Property SCClinkl() As String
             Get
@@ -1829,7 +1820,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام.
+        '''  Looks up a localized string similar to Nome.
         '''</summary>
         Friend Shared ReadOnly Property SCCNamel() As String
             Get
@@ -1838,7 +1829,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور.
+        '''  Looks up a localized string similar to Password.
         '''</summary>
         Friend Shared ReadOnly Property SCCpasswordl() As String
             Get
@@ -1847,7 +1838,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ذخیره در.
+        '''  Looks up a localized string similar to Salva in.
         '''</summary>
         Friend Shared ReadOnly Property SCCsavetol() As String
             Get
@@ -1856,7 +1847,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سایز.
+        '''  Looks up a localized string similar to Dimensione.
         '''</summary>
         Friend Shared ReadOnly Property SCCsizel() As String
             Get
@@ -1865,7 +1856,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سرعت.
+        '''  Looks up a localized string similar to Velocità.
         '''</summary>
         Friend Shared ReadOnly Property SCCSpeedl() As String
             Get
@@ -1874,7 +1865,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to وضعیت.
+        '''  Looks up a localized string similar to Stato.
         '''</summary>
         Friend Shared ReadOnly Property SCCstatusl() As String
             Get
@@ -1883,7 +1874,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری.
+        '''  Looks up a localized string similar to Nome utente.
         '''</summary>
         Friend Shared ReadOnly Property SCCusernamel() As String
             Get
@@ -1892,7 +1883,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلودشده :.
+        '''  Looks up a localized string similar to Scaricati :.
         '''</summary>
         Friend Shared ReadOnly Property SCdledlbl() As String
             Get
@@ -1901,7 +1892,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to برنامه های درحال اجرا را مجبور به بستن کن.
+        '''  Looks up a localized string similar to Forza l&apos;interruzione dei processi.
         '''</summary>
         Friend Shared ReadOnly Property SCforceturnoffcheck() As String
             Get
@@ -1910,7 +1901,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان بند.
+        '''  Looks up a localized string similar to Scheduler.
         '''</summary>
         Friend Shared ReadOnly Property SCfrmschedule() As String
             Get
@@ -1919,7 +1910,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان بندی.
+        '''  Looks up a localized string similar to Pianifica.
         '''</summary>
         Friend Shared ReadOnly Property ScheduleToolStripMenuItem() As String
             Get
@@ -1928,7 +1919,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود.
+        '''  Looks up a localized string similar to Download.
         '''</summary>
         Friend Shared ReadOnly Property SCLabel3() As String
             Get
@@ -1937,7 +1928,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود همزمان.
+        '''  Looks up a localized string similar to file allo stesso tempo.
         '''</summary>
         Friend Shared ReadOnly Property SCLabel4() As String
             Get
@@ -1946,7 +1937,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to روزانه.
+        '''  Looks up a localized string similar to Giornaliero.
         '''</summary>
         Friend Shared ReadOnly Property SCrbdayli() As String
             Get
@@ -1955,7 +1946,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to یکبار در تاریخ.
+        '''  Looks up a localized string similar to Una volta al.
         '''</summary>
         Friend Shared ReadOnly Property SCrbonce() As String
             Get
@@ -1964,7 +1955,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باقیمانده :.
+        '''  Looks up a localized string similar to rimanenti :.
         '''</summary>
         Friend Shared ReadOnly Property SCremainlbl() As String
             Get
@@ -1973,7 +1964,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to زمان بندی.
+        '''  Looks up a localized string similar to Pianifica.
         '''</summary>
         Friend Shared ReadOnly Property SCTabPage1() As String
             Get
@@ -1982,7 +1973,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to فایل های درون صف.
+        '''  Looks up a localized string similar to Files in coda.
         '''</summary>
         Friend Shared ReadOnly Property SCTabPage2() As String
             Get
@@ -1991,7 +1982,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نمایش سبد پرتاب.
+        '''  Looks up a localized string similar to Mostra target di rilascio.
         '''</summary>
         Friend Shared ReadOnly Property ShowDropTargetToolStripMenuItem() As String
             Get
@@ -2000,7 +1991,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to کوچک.
+        '''  Looks up a localized string similar to Piccolo.
         '''</summary>
         Friend Shared ReadOnly Property SmallToolStripMenuItem() As String
             Get
@@ -2009,7 +2000,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف دانلود.
+        '''  Looks up a localized string similar to Ferma download.
         '''</summary>
         Friend Shared ReadOnly Property StopDownloadToolStripMenuItem() As String
             Get
@@ -2018,7 +2009,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to لغو شده.
+        '''  Looks up a localized string similar to Annullato.
         '''</summary>
         Friend Shared ReadOnly Property stsCanceled() As String
             Get
@@ -2027,7 +2018,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال لغو کردن.
+        '''  Looks up a localized string similar to cancellatura .
         '''</summary>
         Friend Shared ReadOnly Property stsCanceling() As String
             Get
@@ -2036,7 +2027,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to تکمیل شده.
+        '''  Looks up a localized string similar to Completato.
         '''</summary>
         Friend Shared ReadOnly Property stsCompleted() As String
             Get
@@ -2045,7 +2036,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال اتصال ....
+        '''  Looks up a localized string similar to Collegamento ....
         '''</summary>
         Friend Shared ReadOnly Property stsConnecting() As String
             Get
@@ -2054,7 +2045,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود ناموفق بود.
+        '''  Looks up a localized string similar to Download non riuscito.
         '''</summary>
         Friend Shared ReadOnly Property stsDLfaild() As String
             Get
@@ -2063,7 +2054,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود ناموفق - در حال تلاش مجدد.
+        '''  Looks up a localized string similar to Download non riuscito - Cercando di nuovo per scaricare.
         '''</summary>
         Friend Shared ReadOnly Property stsDLfaild_Tryingagain() As String
             Get
@@ -2072,7 +2063,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود ریست گردید.
+        '''  Looks up a localized string similar to Scarica resettato.
         '''</summary>
         Friend Shared ReadOnly Property stsDLresetted() As String
             Get
@@ -2081,7 +2072,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال ریست دانلود ....
+        '''  Looks up a localized string similar to Ripristino scaricare.
         '''</summary>
         Friend Shared ReadOnly Property stsDLresetting() As String
             Get
@@ -2090,7 +2081,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال دریافت.
+        '''  Looks up a localized string similar to Scaricare.
         '''</summary>
         Friend Shared ReadOnly Property stsDownloading() As String
             Get
@@ -2099,7 +2090,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to فایل با موفقیت دانلود و یکپارچه سازی شد.
+        '''  Looks up a localized string similar to File successo scaricato e fusa.
         '''</summary>
         Friend Shared ReadOnly Property stsMerged() As String
             Get
@@ -2108,7 +2099,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ...در حال ادغام بخش های دانلود شده - لطفا صبر کنید.
+        '''  Looks up a localized string similar to Unire le parti scaricate - attendere prego ....
         '''</summary>
         Friend Shared ReadOnly Property stsMergin() As String
             Get
@@ -2117,7 +2108,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to متوقف شده.
+        '''  Looks up a localized string similar to In pausa.
         '''</summary>
         Friend Shared ReadOnly Property stsPaused() As String
             Get
@@ -2126,7 +2117,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال توقف.
+        '''  Looks up a localized string similar to Mettere in pausa.
         '''</summary>
         Friend Shared ReadOnly Property stsPausing() As String
             Get
@@ -2135,7 +2126,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to در حال شروع دانلود ....
+        '''  Looks up a localized string similar to scaricare partire.
         '''</summary>
         Friend Shared ReadOnly Property stsStarting() As String
             Get
@@ -2144,7 +2135,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود ها.
+        '''  Looks up a localized string similar to Downloads.
         '''</summary>
         Friend Shared ReadOnly Property TabPage1() As String
             Get
@@ -2153,7 +2144,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to گزارشات.
+        '''  Looks up a localized string similar to Logs.
         '''</summary>
         Friend Shared ReadOnly Property TabPage2() As String
             Get
@@ -2162,7 +2153,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود مجدد.
+        '''  Looks up a localized string similar to Scarica nuovamente.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem10() As String
             Get
@@ -2171,7 +2162,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ایست همه.
+        '''  Looks up a localized string similar to Tutto in Pausa.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem12() As String
             Get
@@ -2180,7 +2171,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف همه.
+        '''  Looks up a localized string similar to Interrompi Tutto.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem13() As String
             Get
@@ -2189,7 +2180,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to امور.
+        '''  Looks up a localized string similar to Compito.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem3() As String
             Get
@@ -2198,7 +2189,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to دانلود.
+        '''  Looks up a localized string similar to Download.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem4() As String
             Get
@@ -2207,7 +2198,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to اضافه کردن لینک جدید.
+        '''  Looks up a localized string similar to Aggiungi nuovo link.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem5() As String
             Get
@@ -2216,7 +2207,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to خروج.
+        '''  Looks up a localized string similar to Esci.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem6() As String
             Get
@@ -2225,7 +2216,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توقف دانلود.
+        '''  Looks up a localized string similar to Ferma download.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem7() As String
             Get
@@ -2234,7 +2225,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to حذف.
+        '''  Looks up a localized string similar to Rimuovi.
         '''</summary>
         Friend Shared ReadOnly Property ToolStripMenuItem8() As String
             Get
@@ -2243,7 +2234,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to انصراف.
+        '''  Looks up a localized string similar to Cancella.
         '''</summary>
         Friend Shared ReadOnly Property UPbtncancel() As String
             Get
@@ -2252,7 +2243,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to باشه.
+        '''  Looks up a localized string similar to OK.
         '''</summary>
         Friend Shared ReadOnly Property UPbtnok() As String
             Get
@@ -2261,7 +2252,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ورود به سایت.
+        '''  Looks up a localized string similar to Entra nel sito.
         '''</summary>
         Friend Shared ReadOnly Property UPEfrmuserpass() As String
             Get
@@ -2270,7 +2261,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سرور/مسیر.
+        '''  Looks up a localized string similar to Server/Percorso.
         '''</summary>
         Friend Shared ReadOnly Property UPELabel1() As String
             Get
@@ -2279,7 +2270,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توجه : آدرس سایت را فقط  در صورتی وارد کنید که اکانتی برای آن سایت دارید.
+        '''  Looks up a localized string similar to Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server.
         '''</summary>
         Friend Shared ReadOnly Property UPELabel2() As String
             Get
@@ -2288,7 +2279,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری.
+        '''  Looks up a localized string similar to Nome utente.
         '''</summary>
         Friend Shared ReadOnly Property UPELabel3() As String
             Get
@@ -2297,7 +2288,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور.
+        '''  Looks up a localized string similar to Password.
         '''</summary>
         Friend Shared ReadOnly Property UPELabel4() As String
             Get
@@ -2306,7 +2297,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to ورود به سایت.
+        '''  Looks up a localized string similar to Entra nel sito.
         '''</summary>
         Friend Shared ReadOnly Property UPfrmuserpass() As String
             Get
@@ -2315,7 +2306,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to سرور/مسیر.
+        '''  Looks up a localized string similar to Server/Percorso.
         '''</summary>
         Friend Shared ReadOnly Property UPLabel1() As String
             Get
@@ -2324,7 +2315,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to توجه : آدرس سایت را فقط  در صورتی وارد کنید که اکانتی برای آن سایت دارید.
+        '''  Looks up a localized string similar to Nota : Digita il percorso solo se hai nomi differenti di login per diverse directory di server.
         '''</summary>
         Friend Shared ReadOnly Property UPLabel2() As String
             Get
@@ -2333,7 +2324,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نام کاربری .
+        '''  Looks up a localized string similar to Nome utente.
         '''</summary>
         Friend Shared ReadOnly Property UPLabel3() As String
             Get
@@ -2342,7 +2333,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to رمز عبور.
+        '''  Looks up a localized string similar to Password.
         '''</summary>
         Friend Shared ReadOnly Property UPLabel4() As String
             Get
@@ -2351,7 +2342,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to نمایش.
+        '''  Looks up a localized string similar to Visualizza.
         '''</summary>
         Friend Shared ReadOnly Property ViewToolStripMenuItem() As String
             Get

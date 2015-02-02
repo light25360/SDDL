@@ -4,7 +4,7 @@
   <description asmv2:iconFile="SDDL.ico" asmv2:publisher="Sajjad Tanha" asmv2:product="SD Download Manager" asmv2:supportUrl="http://www.sddl.persianblog.ir/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SD_Download_Manager" version="2.0.1.5" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SD_Download_Manager" version="2.0.1.6" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
     <commandLine file="SD_Download_Manager.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -80,33 +80,33 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="2940416">
-      <assemblyIdentity name="SD_Download_Manager" version="2.0.1.5" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="3760128">
+      <assemblyIdentity name="SD_Download_Manager" version="2.0.1.6" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fbzBgzfqHUTBE8ovZ4AnDN3gr0c=</dsig:DigestValue>
+        <dsig:DigestValue>2zOlDTKV014CgfYyv4x/UrZ0/b4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="License.txt" size="33075">
+  <file name="License.txt" size="33079">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>eNnfEGqRmVkNhEvV2LtRo3sxgKo=</dsig:DigestValue>
+      <dsig:DigestValue>IMIODrLM+V5JNho6z1cebIhdxII=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SD_Download_Manager.exe.config" size="9952">
+  <file name="SD_Download_Manager.exe.config" size="10057">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>RWGj6p0QumiuG+2qx8qEJginUwg=</dsig:DigestValue>
+      <dsig:DigestValue>PJP6oyUCLgpeEwPvSvNAHbhyKl4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SDDL.ico" size="151382">
