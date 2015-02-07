@@ -163,7 +163,7 @@
     <value>By Last Try Date</value>
   </data>
   <data name="ByLeftTimeToolStripMenuItem" xml:space="preserve">
-    <value>By Left Time</value>
+    <value>By Time left</value>
   </data>
   <data name="BySizeToolStripMenuItem" xml:space="preserve">
     <value>By Size</value>
@@ -205,7 +205,7 @@
     <value>Status</value>
   </data>
   <data name="CLtime" xml:space="preserve">
-    <value>Left time</value>
+    <value>Time left </value>
   </data>
   <data name="CLusername" xml:space="preserve">
     <value>User name</value>
@@ -586,7 +586,7 @@
     <value>Last try date</value>
   </data>
   <data name="SCClefttimel" xml:space="preserve">
-    <value>Left time</value>
+    <value>Time left </value>
   </data>
   <data name="SCClinkl" xml:space="preserve">
     <value>Link</value>
