@@ -4,7 +4,7 @@
   <description asmv2:iconFile="SDDL.ico" asmv2:publisher="Sajjad Tanha" asmv2:product="SD Download Manager" asmv2:supportUrl="http://www.sddl.persianblog.ir/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SD_Download_Manager" version="2.0.1.6" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SD_Download_Manager" version="2.0.1.8" publicKeyToken="EFC2586A2D2347DE" language="neutral" processorArchitecture="msil" />
     <commandLine file="SD_Download_Manager.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -80,14 +80,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="3760128">
-      <assemblyIdentity name="SD_Download_Manager" version="2.0.1.6" publicKeyToken="E49B05EA124950EB" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="3835904">
+      <assemblyIdentity name="SD_Download_Manager" version="2.0.1.8" publicKeyToken="EFC2586A2D2347DE" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2zOlDTKV014CgfYyv4x/UrZ0/b4=</dsig:DigestValue>
+        <dsig:DigestValue>qSHfjyemu3Nd9ekErE5GbMwhUXA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="1468416">
+      <assemblyIdentity name="Telerik.WinControls" version="2012.1.12.215" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rYjYBEcIjs/CuttxJjoKp6kPwmk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="8567296">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2012.1.12.215" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3pYrsNNjx1N3e+Q0ulGfgi9NBA0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="587264">
+      <assemblyIdentity name="TelerikCommon" version="2012.1.12.215" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SF88U6nZG8Sl14SVPuc1dAIFLHw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -100,13 +136,13 @@
       <dsig:DigestValue>IMIODrLM+V5JNho6z1cebIhdxII=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SD_Download_Manager.exe.config" size="10057">
+  <file name="SD_Download_Manager.exe.config" size="14202">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>PJP6oyUCLgpeEwPvSvNAHbhyKl4=</dsig:DigestValue>
+      <dsig:DigestValue>tkw737vxNjT2UCWO2FhiWtmSSX0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SDDL.ico" size="151382">

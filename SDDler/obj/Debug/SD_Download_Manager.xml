@@ -437,6 +437,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to لطفا نظرات ، پیشنهادات و اشکالات نرم افزار را در پایین نوشته و سپس بر روی دکمه "ارسال" کلیک نمایید.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.FDlblattach">
+	<summary>
+  Looks up a localized string similar to ضمیمه :.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.FDlblmail">
 	<summary>
   Looks up a localized string similar to پست الکترونیک .
@@ -512,6 +516,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.Llocation">
 	<summary>
   Looks up a localized string similar to ذخیره در.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.NoInternet">
+	<summary>
+  Looks up a localized string similar to اتصال اینترنت برقرار نمیباشد ، لطفا پس از اطمینان از وصل بودن اینترنت مجدداٌ امتحان نمایید.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.NormalToolStripMenuItem">
 	<summary>
@@ -695,7 +703,7 @@ SD_Download_Manager
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OPLabel12">
 	<summary>
-  Looks up a localized string similar to اگر تعداد کانکشن ها را تغییر دهید، تمامی دانلودها از اول دانلود خواهند شد.
+  Looks up a localized string similar to اگر تعداد ارتباطات را تغییر دهید، تمامی دانلودها از ابتدا دانلود خواهند شد.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OPLabel13">
 	<summary>
@@ -704,6 +712,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OPLabel14">
 	<summary>
   Looks up a localized string similar to ثانیه.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.OPLabel15">
+	<summary>
+  Looks up a localized string similar to اندازه کش.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.OPLabel3">
 	<summary>
@@ -997,6 +1009,14 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to فایل های درون صف.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.ShowCategoryToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to نمایش دسته بندی.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.ShowCategoryToolStripMenuItemhide">
+	<summary>
+  Looks up a localized string similar to مخفی‌کردن دسته بندی.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.ShowDropTargetToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to نمایش سبد پرتاب.
@@ -1044,6 +1064,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.stsDownloading">
 	<summary>
   Looks up a localized string similar to در حال دریافت.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.stsfaild">
+	<summary>
+  Looks up a localized string similar to ناموفق.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.stsMerged">
 	<summary>
@@ -1258,7 +1282,7 @@ SD_Download_Manager
  </summary>
 </member><member name="M:SD_Download_Manager.HttpDownloadClient.DownloadInternal(System.Object)">
 	<summary>
- Download the data using HttpWebRequest. It will read a buffer of bytes from the
+ Download the data using WebRequest. It will read a buffer of bytes from the
  response stream, and store the buffer to a MemoryStream cache first.
  If the cache is full, or the download is paused, Canceled or Completed, write
  the data in cache to local file.
@@ -1309,6 +1333,10 @@ SD_Download_Manager
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.Resources.ArrangeMetro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.Resources.Category">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -1769,6 +1797,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Per favore inviaci dei commenti, suggerimenti o segnala dei bugs nel programma e clicca sul bottone "Invia".
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.FDlblattach">
+	<summary>
+  Looks up a localized string similar to Allegare :.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.FDlblmail">
 	<summary>
   Looks up a localized string similar to E-Mail .
@@ -1844,6 +1876,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.IT.Llocation">
 	<summary>
   Looks up a localized string similar to Salva in.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.NoInternet">
+	<summary>
+  Looks up a localized string similar to Network is not available , Please check your internet connection and then try again.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.NormalToolStripMenuItem">
 	<summary>
@@ -2036,6 +2072,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel14">
 	<summary>
   Looks up a localized string similar to Secondo.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel15">
+	<summary>
+  Looks up a localized string similar to Cache Dimensione.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.OPLabel3">
 	<summary>
@@ -2377,6 +2417,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Scaricare.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.stsfaild">
+	<summary>
+  Looks up a localized string similar to non riuscito.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.stsMerged">
 	<summary>
   Looks up a localized string similar to File successo scaricato e fusa.
@@ -2604,7 +2648,7 @@ SD_Download_Manager
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ByLeftTimeToolStripMenuItem">
 	<summary>
-  Looks up a localized string similar to By Left Time.
+  Looks up a localized string similar to By Time left.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.BySizeToolStripMenuItem">
 	<summary>
@@ -2660,7 +2704,7 @@ SD_Download_Manager
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.CLtime">
 	<summary>
-  Looks up a localized string similar to Left time.
+  Looks up a localized string similar to Time left .
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.CLusername">
 	<summary>
@@ -2818,6 +2862,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Please write comments or suggestions or bugs in the software and click on the "Send" button.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.FDlblattach">
+	<summary>
+  Looks up a localized string similar to Attach :.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.FDlblmail">
 	<summary>
   Looks up a localized string similar to E-Mail .
@@ -2893,6 +2941,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.Llocation">
 	<summary>
   Looks up a localized string similar to Save to.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.NoInternet">
+	<summary>
+  Looks up a localized string similar to Network is not available , Please check your internet connection and then try again.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.NormalToolStripMenuItem">
 	<summary>
@@ -3085,6 +3137,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.OPLabel14">
 	<summary>
   Looks up a localized string similar to Second.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.OPLabel15">
+	<summary>
+  Looks up a localized string similar to Cache Size.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.OPLabel3">
 	<summary>
@@ -3300,7 +3356,7 @@ SD_Download_Manager
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.SCClefttimel">
 	<summary>
-  Looks up a localized string similar to Left time.
+  Looks up a localized string similar to Time left .
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.SCClinkl">
 	<summary>
@@ -3378,6 +3434,14 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Files in the queue.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.ShowCategoryToolStripMenuItem">
+	<summary>
+  Looks up a localized string similar to Show Category.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.ShowCategoryToolStripMenuItemhide">
+	<summary>
+  Looks up a localized string similar to Hide Category.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ShowDropTargetToolStripMenuItem">
 	<summary>
   Looks up a localized string similar to Show drop target.
@@ -3425,6 +3489,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.stsDownloading">
 	<summary>
   Looks up a localized string similar to Downloading.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.stsfaild">
+	<summary>
+  Looks up a localized string similar to Faild.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.stsMerged">
 	<summary>
