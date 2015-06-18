@@ -879,4 +879,16 @@
   <data name="OPCheckOldIcons" xml:space="preserve">
     <value>Utilizzare vecchie icone</value>
   </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Network is not available , Please check your internet connection and then try again</value>
+  </data>
+  <data name="stsfaild" xml:space="preserve">
+    <value>non riuscito</value>
+  </data>
+  <data name="FDlblattach" xml:space="preserve">
+    <value>Allegare :</value>
+  </data>
+  <data name="OPLabel15" xml:space="preserve">
+    <value>Cache Dimensione</value>
+  </data>
 </root>

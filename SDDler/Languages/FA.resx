@@ -784,7 +784,7 @@
     <value>رابط کاربری</value>
   </data>
   <data name="OPLabel12" xml:space="preserve">
-    <value>اگر تعداد کانکشن ها را تغییر دهید، تمامی دانلودها از اول دانلود خواهند شد</value>
+    <value>اگر تعداد ارتباطات را تغییر دهید، تمامی دانلودها از ابتدا دانلود خواهند شد</value>
   </data>
   <data name="OPcheckdefaultpath" xml:space="preserve">
     <value>استفاده از مسیر پیشفرض برای دانلودها</value>
@@ -881,5 +881,23 @@
   </data>
   <data name="OPCheckOldIcons" xml:space="preserve">
     <value>استفاده از آیکون های قدیمی</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>اتصال اینترنت برقرار نمیباشد ، لطفا پس از اطمینان از وصل بودن اینترنت مجدداٌ امتحان نمایید</value>
+  </data>
+  <data name="stsfaild" xml:space="preserve">
+    <value>ناموفق</value>
+  </data>
+  <data name="FDlblattach" xml:space="preserve">
+    <value>ضمیمه :</value>
+  </data>
+  <data name="OPLabel15" xml:space="preserve">
+    <value>اندازه کش</value>
+  </data>
+  <data name="ShowCategoryToolStripMenuItem" xml:space="preserve">
+    <value>نمایش دسته بندی</value>
+  </data>
+  <data name="ShowCategoryToolStripMenuItemhide" xml:space="preserve">
+    <value>مخفی‌کردن دسته بندی</value>
   </data>
 </root>
