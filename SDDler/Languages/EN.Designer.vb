@@ -236,7 +236,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to By Time left.
+        '''  Looks up a localized string similar to By Left Time.
         '''</summary>
         Friend Shared ReadOnly Property ByLeftTimeToolStripMenuItem() As String
             Get
@@ -362,7 +362,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Time left .
+        '''  Looks up a localized string similar to Left time.
         '''</summary>
         Friend Shared ReadOnly Property CLtime() As String
             Get
@@ -1802,7 +1802,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Time left .
+        '''  Looks up a localized string similar to Left time.
         '''</summary>
         Friend Shared ReadOnly Property SCClefttimel() As String
             Get
