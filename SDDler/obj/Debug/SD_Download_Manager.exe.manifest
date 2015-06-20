@@ -80,14 +80,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="3835904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SD_Download_Manager.exe" size="3852800">
       <assemblyIdentity name="SD_Download_Manager" version="2.0.1.8" publicKeyToken="EFC2586A2D2347DE" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qSHfjyemu3Nd9ekErE5GbMwhUXA=</dsig:DigestValue>
+        <dsig:DigestValue>TPXRhxJVSU2tuzxHiH0j52oSJtg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -136,13 +136,13 @@
       <dsig:DigestValue>IMIODrLM+V5JNho6z1cebIhdxII=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SD_Download_Manager.exe.config" size="14202">
+  <file name="SD_Download_Manager.exe.config" size="15325">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>tkw737vxNjT2UCWO2FhiWtmSSX0=</dsig:DigestValue>
+      <dsig:DigestValue>9EpJ6fPnA9LBk3NYMQvrcfKYWgI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SDDL.ico" size="151382">

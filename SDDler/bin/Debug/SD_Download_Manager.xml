@@ -169,6 +169,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to استفاده از حساب کاربری.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.ADCheckRemember">
+	<summary>
+  Looks up a localized string similar to  به یاد داشته باش &lt;Category&gt; این مسیر را برای دسته‌بندی.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.Addlink">
 	<summary>
   Looks up a localized string similar to اضافه کردن لینک.
@@ -200,6 +204,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.ADLabel7">
 	<summary>
   Looks up a localized string similar to نام فایل :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.ADlblCategory">
+	<summary>
+  Looks up a localized string similar to دسته‌بندی.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.ADlbldescription">
 	<summary>
@@ -412,6 +420,26 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.FA.DLstatustab">
 	<summary>
   Looks up a localized string similar to وضعیت دانلود.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.EditCat">
+	<summary>
+  Looks up a localized string similar to ویرایش خصوصیات دسته‌بندی.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.EditCatLabel1">
+	<summary>
+  Looks up a localized string similar to نام دسته‌بندی.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.EditCatLabel2">
+	<summary>
+  Looks up a localized string similar to فایل‌هایی که دارای پسوندهای زیر می‌باشند در این دسته‌بندی قرار بده :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.EditCatLabel3">
+	<summary>
+  Looks up a localized string similar to  (avi mpg mpeg توجه: پسوند فایل‌ها را با فاصله از هم جدا کنید(مانند .
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.FA.EditCatLabel5">
+	<summary>
+  Looks up a localized string similar to فایل‌هایی که در این دسته‌بندی دانلود می‌شوند را در این مسیر قرار بده :.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.FA.ExitToolStripMenuItem">
 	<summary>
@@ -1533,6 +1561,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Usa autorizzazione.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADCheckRemember">
+	<summary>
+  Looks up a localized string similar to Remember this path for &lt;Category&gt; category.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.Addlink">
 	<summary>
   Looks up a localized string similar to Aggiungi link.
@@ -1560,6 +1592,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.IT.ADLabel7">
 	<summary>
   Looks up a localized string similar to Nome file :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.ADlblCategory">
+	<summary>
+  Looks up a localized string similar to Category.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.ADlbldescription">
 	<summary>
@@ -1772,6 +1808,26 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.IT.DLstatustab">
 	<summary>
   Looks up a localized string similar to Stato del download.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.EditCat">
+	<summary>
+  Looks up a localized string similar to Editing Category Properties.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.EditCatLabel1">
+	<summary>
+  Looks up a localized string similar to Category name.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.EditCatLabel2">
+	<summary>
+  Looks up a localized string similar to Automatically put in this category the following file types:.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.EditCatLabel3">
+	<summary>
+  Looks up a localized string similar to Note: type file extensions separated by space(e.g. avi mpg mpeg).
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.IT.EditCatLabel5">
+	<summary>
+  Looks up a localized string similar to Save future downloads of this category to the following folder:.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.IT.ExitToolStripMenuItem">
 	<summary>
@@ -2598,6 +2654,10 @@ SD_Download_Manager
 	<summary>
   Looks up a localized string similar to Use authorization.
 </summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.ADCheckRemember">
+	<summary>
+  Looks up a localized string similar to Remember this path for &lt;Category&gt; category.
+</summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.Addlink">
 	<summary>
   Looks up a localized string similar to Add link.
@@ -2625,6 +2685,10 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ADLabel7">
 	<summary>
   Looks up a localized string similar to File name :.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.ADlblCategory">
+	<summary>
+  Looks up a localized string similar to Category.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ADlbldescription">
 	<summary>
@@ -2837,6 +2901,26 @@ SD_Download_Manager
 </member><member name="P:SD_Download_Manager.My.Resources.EN.DLstatustab">
 	<summary>
   Looks up a localized string similar to Download status.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.EditCat">
+	<summary>
+  Looks up a localized string similar to Editing Category Properties.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.EditCatLabel1">
+	<summary>
+  Looks up a localized string similar to Category name.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.EditCatLabel2">
+	<summary>
+  Looks up a localized string similar to Automatically put in this category the following file types:.
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.EditCatLabel3">
+	<summary>
+  Looks up a localized string similar to Note: type file extensions separated by space(e.g. avi mpg mpeg).
+</summary>
+</member><member name="P:SD_Download_Manager.My.Resources.EN.EditCatLabel5">
+	<summary>
+  Looks up a localized string similar to Save future downloads of this category to the following folder:.
 </summary>
 </member><member name="P:SD_Download_Manager.My.Resources.EN.ExitToolStripMenuItem">
 	<summary>

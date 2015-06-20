@@ -900,4 +900,25 @@
   <data name="ShowCategoryToolStripMenuItemhide" xml:space="preserve">
     <value>مخفی‌کردن دسته بندی</value>
   </data>
+  <data name="EditCat" xml:space="preserve">
+    <value>ویرایش خصوصیات دسته‌بندی</value>
+  </data>
+  <data name="EditCatLabel1" xml:space="preserve">
+    <value>نام دسته‌بندی</value>
+  </data>
+  <data name="EditCatLabel2" xml:space="preserve">
+    <value>فایل‌هایی که دارای پسوندهای زیر می‌باشند در این دسته‌بندی قرار بده :</value>
+  </data>
+  <data name="EditCatLabel3" xml:space="preserve">
+    <value> (avi mpg mpeg توجه: پسوند فایل‌ها را با فاصله از هم جدا کنید(مانند </value>
+  </data>
+  <data name="EditCatLabel5" xml:space="preserve">
+    <value>فایل‌هایی که در این دسته‌بندی دانلود می‌شوند را در این مسیر قرار بده :</value>
+  </data>
+  <data name="ADCheckRemember" xml:space="preserve">
+    <value> به یاد داشته باش &lt;Category&gt; این مسیر را برای دسته‌بندی</value>
+  </data>
+  <data name="ADlblCategory" xml:space="preserve">
+    <value>دسته‌بندی</value>
+  </data>
 </root>

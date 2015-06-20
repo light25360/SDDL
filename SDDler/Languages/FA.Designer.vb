@@ -128,6 +128,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to  به یاد داشته باش &lt;Category&gt; این مسیر را برای دسته‌بندی.
+        '''</summary>
+        Friend Shared ReadOnly Property ADCheckRemember() As String
+            Get
+                Return ResourceManager.GetString("ADCheckRemember", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to اضافه کردن لینک.
         '''</summary>
         Friend Shared ReadOnly Property Addlink() As String
@@ -196,6 +205,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ADLabel7() As String
             Get
                 Return ResourceManager.GetString("ADLabel7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to دسته‌بندی.
+        '''</summary>
+        Friend Shared ReadOnly Property ADlblCategory() As String
+            Get
+                Return ResourceManager.GetString("ADlblCategory", resourceCulture)
             End Get
         End Property
         
@@ -673,6 +691,51 @@ Namespace My.Resources
         Friend Shared ReadOnly Property DLstatustab() As String
             Get
                 Return ResourceManager.GetString("DLstatustab", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to ویرایش خصوصیات دسته‌بندی.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCat() As String
+            Get
+                Return ResourceManager.GetString("EditCat", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to نام دسته‌بندی.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel1() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to فایل‌هایی که دارای پسوندهای زیر می‌باشند در این دسته‌بندی قرار بده :.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel2() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to  (avi mpg mpeg توجه: پسوند فایل‌ها را با فاصله از هم جدا کنید(مانند .
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel3() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to فایل‌هایی که در این دسته‌بندی دانلود می‌شوند را در این مسیر قرار بده :.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel5() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel5", resourceCulture)
             End Get
         End Property
         

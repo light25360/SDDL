@@ -897,4 +897,25 @@
   <data name="ShowCategoryToolStripMenuItemhide" xml:space="preserve">
     <value>Hide Category</value>
   </data>
+  <data name="EditCat" xml:space="preserve">
+    <value>Editing Category Properties</value>
+  </data>
+  <data name="EditCatLabel1" xml:space="preserve">
+    <value>Category name</value>
+  </data>
+  <data name="EditCatLabel2" xml:space="preserve">
+    <value>Automatically put in this category the following file types:</value>
+  </data>
+  <data name="EditCatLabel3" xml:space="preserve">
+    <value>Note: type file extensions separated by space(e.g. avi mpg mpeg)</value>
+  </data>
+  <data name="EditCatLabel5" xml:space="preserve">
+    <value>Save future downloads of this category to the following folder:</value>
+  </data>
+  <data name="ADCheckRemember" xml:space="preserve">
+    <value>Remember this path for &lt;Category&gt; category</value>
+  </data>
+  <data name="ADlblCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
 </root>

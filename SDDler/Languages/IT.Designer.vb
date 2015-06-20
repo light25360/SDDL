@@ -128,6 +128,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Remember this path for &lt;Category&gt; category.
+        '''</summary>
+        Friend Shared ReadOnly Property ADCheckRemember() As String
+            Get
+                Return ResourceManager.GetString("ADCheckRemember", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Aggiungi link.
         '''</summary>
         Friend Shared ReadOnly Property Addlink() As String
@@ -187,6 +196,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ADLabel7() As String
             Get
                 Return ResourceManager.GetString("ADLabel7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Category.
+        '''</summary>
+        Friend Shared ReadOnly Property ADlblCategory() As String
+            Get
+                Return ResourceManager.GetString("ADlblCategory", resourceCulture)
             End Get
         End Property
         
@@ -664,6 +682,51 @@ Namespace My.Resources
         Friend Shared ReadOnly Property DLstatustab() As String
             Get
                 Return ResourceManager.GetString("DLstatustab", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Editing Category Properties.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCat() As String
+            Get
+                Return ResourceManager.GetString("EditCat", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Category name.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel1() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Automatically put in this category the following file types:.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel2() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Note: type file extensions separated by space(e.g. avi mpg mpeg).
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel3() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Save future downloads of this category to the following folder:.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel5() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel5", resourceCulture)
             End Get
         End Property
         

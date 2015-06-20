@@ -72,7 +72,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("AboutToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to About.
         '''</summary>
@@ -81,7 +81,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("AboutToolStripMenuItem1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to OK.
         '''</summary>
@@ -90,7 +90,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ADButton1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Cancel.
         '''</summary>
@@ -99,7 +99,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ADButton2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Download later.
         '''</summary>
@@ -108,7 +108,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ADchdlnow", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Use deafult path.
         '''</summary>
@@ -117,13 +117,22 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ADchdpath", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Use authorization.
         '''</summary>
         Friend Shared ReadOnly Property ADCheckBox1() As String
             Get
                 Return ResourceManager.GetString("ADCheckBox1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Remember this path for &lt;Category&gt; category.
+        '''</summary>
+        Friend Shared ReadOnly Property ADCheckRemember() As String
+            Get
+                Return ResourceManager.GetString("ADCheckRemember", resourceCulture)
             End Get
         End Property
 
@@ -187,6 +196,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ADLabel7() As String
             Get
                 Return ResourceManager.GetString("ADLabel7", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to Category.
+        '''</summary>
+        Friend Shared ReadOnly Property ADlblCategory() As String
+            Get
+                Return ResourceManager.GetString("ADlblCategory", resourceCulture)
             End Get
         End Property
 
@@ -668,6 +686,51 @@ Namespace My.Resources
         End Property
 
         '''<summary>
+        '''  Looks up a localized string similar to Editing Category Properties.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCat() As String
+            Get
+                Return ResourceManager.GetString("EditCat", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to Category name.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel1() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel1", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to Automatically put in this category the following file types:.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel2() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel2", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to Note: type file extensions separated by space(e.g. avi mpg mpeg).
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel3() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel3", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized string similar to Save future downloads of this category to the following folder:.
+        '''</summary>
+        Friend Shared ReadOnly Property EditCatLabel5() As String
+            Get
+                Return ResourceManager.GetString("EditCatLabel5", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
         '''  Looks up a localized string similar to Exit.
         '''</summary>
         Friend Shared ReadOnly Property ExitToolStripMenuItem() As String
@@ -900,7 +963,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("Llocation", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Network is not available , Please check your internet connection and then try again.
         '''</summary>
@@ -909,7 +972,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("NoInternet", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Normal.
         '''</summary>
@@ -918,7 +981,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("NormalToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Cancel.
         '''</summary>
@@ -927,7 +990,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtncancel", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Check for new version.
         '''</summary>
@@ -936,7 +999,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtncheckfornewversion", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Edit.
         '''</summary>
@@ -945,7 +1008,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtnedit", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to New.
         '''</summary>
@@ -954,7 +1017,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtnnew", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to OK.
         '''</summary>
@@ -963,7 +1026,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtnok", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Remove.
         '''</summary>
@@ -972,7 +1035,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPbtnremove", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Add.
         '''</summary>
@@ -981,7 +1044,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opButton1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Default.
         '''</summary>
@@ -990,7 +1053,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opButton2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Remove.
         '''</summary>
@@ -999,7 +1062,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opButton3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Select font.
         '''</summary>
@@ -1008,7 +1071,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPButton4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Select texts color.
         '''</summary>
@@ -1017,7 +1080,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPButton5", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Select forms background color.
         '''</summary>
@@ -1026,7 +1089,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPButton6", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Restore default.
         '''</summary>
@@ -1035,7 +1098,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPButton7", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Check for update automaticaly.
         '''</summary>
@@ -1044,7 +1107,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckautoupdate", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Download failed.
         '''</summary>
@@ -1053,7 +1116,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckcancelled", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Download completed.
         '''</summary>
@@ -1062,7 +1125,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckcompleted", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Use default path for downloads.
         '''</summary>
@@ -1071,7 +1134,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckdefaultpath", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Dont show delete dialog when deleting files from list.
         '''</summary>
@@ -1080,7 +1143,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckdontshoedelete", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Grab download link from clipboard.
         '''</summary>
@@ -1089,7 +1152,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckgrabfromclipboard", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Use old icons.
         '''</summary>
@@ -1098,7 +1161,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPCheckOldIcons", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Show desktop notification when download Completed.
         '''</summary>
@@ -1107,7 +1170,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckshownotification", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Start SD Download Manager on windows startup.
         '''</summary>
@@ -1116,7 +1179,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPcheckstartup", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Automatically start downloading just the following file types.
         '''</summary>
@@ -1125,7 +1188,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opcheckusefiletype", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Password.
         '''</summary>
@@ -1134,7 +1197,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPCpass", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Site/Path.
         '''</summary>
@@ -1143,7 +1206,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPCsite", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to User.
         '''</summary>
@@ -1152,7 +1215,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPCuser", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open with.
         '''</summary>
@@ -1161,7 +1224,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPEbtnopenwith", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open.
         '''</summary>
@@ -1170,7 +1233,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPEButton1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open folder.
         '''</summary>
@@ -1179,7 +1242,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPEButton3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Close.
         '''</summary>
@@ -1188,7 +1251,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPEButton4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Download completed.
         '''</summary>
@@ -1197,7 +1260,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPELabel1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Address.
         '''</summary>
@@ -1206,7 +1269,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPELabel2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to The file saved as.
         '''</summary>
@@ -1215,7 +1278,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPELabel3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Downloaded.
         '''</summary>
@@ -1224,7 +1287,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPELabel5", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open folder.
         '''</summary>
@@ -1233,7 +1296,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OpenFolderToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open app.
         '''</summary>
@@ -1242,7 +1305,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OpenSDMToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open.
         '''</summary>
@@ -1251,7 +1314,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OpenToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open with....
         '''</summary>
@@ -1260,7 +1323,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OpenWithToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Option.
         '''</summary>
@@ -1269,7 +1332,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPfrmoption", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to General Settings.
         '''</summary>
@@ -1278,7 +1341,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPGroupBox1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Select sounds and events.
         '''</summary>
@@ -1287,7 +1350,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPGroupBox2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Select font and other settings for UI.
         '''</summary>
@@ -1296,7 +1359,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPGroupBox4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to General Setting.
         '''</summary>
@@ -1305,7 +1368,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to User interface setting.
         '''</summary>
@@ -1314,7 +1377,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel11", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to If you change the number of connections, all downloads will be download from beginning.
         '''</summary>
@@ -1323,7 +1386,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel12", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Auto Reset download duration.
         '''</summary>
@@ -1332,7 +1395,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel13", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Second.
         '''</summary>
@@ -1341,7 +1404,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel14", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Cache Size.
         '''</summary>
@@ -1350,7 +1413,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel15", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Sounds Setting.
         '''</summary>
@@ -1359,7 +1422,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Usernames and passwords for servers/sites.
         '''</summary>
@@ -1368,7 +1431,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel5", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Downloaded file types.
         '''</summary>
@@ -1377,7 +1440,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opLabel8", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Connections number.
         '''</summary>
@@ -1386,7 +1449,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPLabel9", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Checking , Please wait ....
         '''</summary>
@@ -1395,7 +1458,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPlblcheck", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Sound.
         '''</summary>
@@ -1404,7 +1467,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPTabPage1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to General.
         '''</summary>
@@ -1413,7 +1476,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPTabPage2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Sites logins.
         '''</summary>
@@ -1422,7 +1485,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPTabPage3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to File types.
         '''</summary>
@@ -1431,7 +1494,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("opTabPage4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to User interface.
         '''</summary>
@@ -1440,7 +1503,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OPTabPage5", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Options.
         '''</summary>
@@ -1449,7 +1512,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("OptionToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Close.
         '''</summary>
@@ -1458,7 +1521,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRbtnclose", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open.
         '''</summary>
@@ -1467,7 +1530,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRbtnopen", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open.
         '''</summary>
@@ -1476,7 +1539,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRbtnopenlink", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to File Properties.
         '''</summary>
@@ -1485,7 +1548,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRfrmpropertise", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Type :.
         '''</summary>
@@ -1494,7 +1557,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Result :.
         '''</summary>
@@ -1503,7 +1566,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel10", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Referer :.
         '''</summary>
@@ -1512,7 +1575,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel14", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Status :.
         '''</summary>
@@ -1521,7 +1584,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Size :.
         '''</summary>
@@ -1530,7 +1593,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Save to :.
         '''</summary>
@@ -1539,7 +1602,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Address :.
         '''</summary>
@@ -1548,7 +1611,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel5", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Description :.
         '''</summary>
@@ -1557,7 +1620,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel6", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Login :.
         '''</summary>
@@ -1566,7 +1629,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel7", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Password :.
         '''</summary>
@@ -1575,7 +1638,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel8", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Last try date :.
         '''</summary>
@@ -1584,7 +1647,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PRLabel9", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to properties.
         '''</summary>
@@ -1593,7 +1656,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("PropertiseToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Redownload.
         '''</summary>
@@ -1602,7 +1665,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("RedownloadToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Delete.
         '''</summary>
@@ -1611,7 +1674,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("RemoveToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Resume download.
         '''</summary>
@@ -1620,7 +1683,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ResumeDownloadToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Apply.
         '''</summary>
@@ -1629,7 +1692,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCbtnapply", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Hide.
         '''</summary>
@@ -1638,7 +1701,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCbtnclose", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Close.
         '''</summary>
@@ -1647,7 +1710,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCbtnexit", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Start now.
         '''</summary>
@@ -1656,7 +1719,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCbtnstart", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Stop.
         '''</summary>
@@ -1665,7 +1728,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCbtnstop", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Description.
         '''</summary>
@@ -1674,7 +1737,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCdescriptionl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Exit SD Download Manager when done.
         '''</summary>
@@ -1683,7 +1746,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckexit", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Friday.
         '''</summary>
@@ -1692,7 +1755,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckfriday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Hang up modem when done.
         '''</summary>
@@ -1701,7 +1764,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckhangmodem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Monday.
         '''</summary>
@@ -1710,7 +1773,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckmonday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Open the following file when done.
         '''</summary>
@@ -1719,7 +1782,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckopenfile", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Number of retries for each files if downloading faild :.
         '''</summary>
@@ -1728,7 +1791,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckretrycount", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Saturday.
         '''</summary>
@@ -1737,7 +1800,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCchecksaturday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Start download at.
         '''</summary>
@@ -1746,7 +1809,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckstarttime", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Start download on SD Download Manager startup.
         '''</summary>
@@ -1755,7 +1818,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckstartup", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Stop download at.
         '''</summary>
@@ -1764,7 +1827,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckstoptime", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Sunday.
         '''</summary>
@@ -1773,7 +1836,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCchecksunday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Thursday.
         '''</summary>
@@ -1782,7 +1845,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckthursday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Tuesday.
         '''</summary>
@@ -1791,7 +1854,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCchecktuesday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Turn off computer when done.
         '''</summary>
@@ -1800,7 +1863,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckturnoff", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Wednesday.
         '''</summary>
@@ -1809,7 +1872,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCcheckwednesday", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to ID.
         '''</summary>
@@ -1818,7 +1881,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCidl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Last try date.
         '''</summary>
@@ -1827,7 +1890,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCClasttryl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Time left .
         '''</summary>
@@ -1836,7 +1899,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCClefttimel", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Link.
         '''</summary>
@@ -1845,7 +1908,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCClinkl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Name.
         '''</summary>
@@ -1854,7 +1917,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCNamel", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Password.
         '''</summary>
@@ -1863,7 +1926,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCpasswordl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Save to.
         '''</summary>
@@ -1872,7 +1935,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCsavetol", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Size.
         '''</summary>
@@ -1881,7 +1944,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCsizel", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Speed.
         '''</summary>
@@ -1890,7 +1953,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCSpeedl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Status.
         '''</summary>
@@ -1899,7 +1962,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCstatusl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to User name.
         '''</summary>
@@ -1908,7 +1971,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCCusernamel", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Downloaded :.
         '''</summary>
@@ -1917,7 +1980,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCdledlbl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Force processes to terminate.
         '''</summary>
@@ -1926,7 +1989,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCforceturnoffcheck", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Scheduler.
         '''</summary>
@@ -1935,7 +1998,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCfrmschedule", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Schedule.
         '''</summary>
@@ -1944,7 +2007,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ScheduleToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Download.
         '''</summary>
@@ -1953,7 +2016,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCLabel3", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to file at the some time.
         '''</summary>
@@ -1962,7 +2025,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCLabel4", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Daily.
         '''</summary>
@@ -1971,7 +2034,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCrbdayli", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Once at.
         '''</summary>
@@ -1980,7 +2043,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCrbonce", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to remaining :.
         '''</summary>
@@ -1989,7 +2052,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCremainlbl", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Schedule.
         '''</summary>
@@ -1998,7 +2061,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCTabPage1", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Files in the queue.
         '''</summary>
@@ -2007,7 +2070,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("SCTabPage2", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Show Category.
         '''</summary>
@@ -2016,7 +2079,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ShowCategoryToolStripMenuItem", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Hide Category.
         '''</summary>
@@ -2025,7 +2088,7 @@ Namespace My.Resources
                 Return ResourceManager.GetString("ShowCategoryToolStripMenuItemhide", resourceCulture)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized string similar to Show drop target.
         '''</summary>
